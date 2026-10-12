@@ -279,8 +279,8 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=noumanshakeil&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=39d353&text_color=c9d1d9" height="165" alt="GitHub stats" />
-<img src="./assets/streak-card.svg" height="165" alt="GitHub streak (includes private contributions)" />
+<img src="./assets/stats-card.svg" height="165" alt="GitHub stats" />
+<img src="./assets/streak-card.svg" height="165" alt="GitHub streak" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noumanshakeil&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" alt="Top languages" />
 
@@ -295,8 +295,6 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 <img src="./assets/dev-quote.svg" alt="Random developer quote" width="100%" />
 
 </div>
-
-<p align="center"><sub>Rotates automatically via GitHub Actions (about every 3 hours; hard-refresh if you still see a cached quote).</sub></p>
 
 ---
 

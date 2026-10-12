@@ -1,4 +1,4 @@
-name: update streak card
+name: update stats cards
 on:
   schedule:
     - cron: "27 */6 * * *"
@@ -6,37 +6,37 @@ on:
   push:
     paths:
       - "scripts/generate_streak_svg.py"
+      - "scripts/generate_stats_svg.py"
 permissions:
   contents: write
 jobs:
-  streak:
+  cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Generate streak SVG (includes private contribs)
+      - name: Generate streak + stats SVGs (private-aware via STATS_PAT)
         env:
-          # Create a classic PAT with `read:user` + `repo` and add it as repo secret STATS_PAT
           STATS_PAT: ${{ secrets.STATS_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -z "$STATS_PAT" ]; then
-            echo "Missing STATS_PAT secret. Public GITHUB_TOKEN cannot see private contribution totals the same way."
-            echo "Add repo secret STATS_PAT (classic PAT: repo + read:user), then re-run this workflow."
+            echo "Missing STATS_PAT secret. Add a classic PAT (repo + read:user), then re-run."
             exit 1
           fi
           python scripts/generate_streak_svg.py
-      - name: Commit card
+          python scripts/generate_stats_svg.py
+      - name: Commit cards
         run: |
           git config user.name "Muhammad Nouman Shakeel"
           git config user.email "236772471+noumanshakeil@users.noreply.github.com"
-          git add assets/streak-card.svg
+          git add assets/streak-card.svg assets/stats-card.svg
           if git diff --cached --quiet; then
-            echo "No streak card changes"
+            echo "No card changes"
           else
-            git commit -m "chore: refresh streak card"
+            git commit -m "chore: refresh stats cards"
             git pull --rebase origin main
             git push
           fi
