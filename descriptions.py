@@ -3,8 +3,8 @@
 # Prefer these over GitHub's description field (especially "Hands-on project: …").
 DESCRIPTIONS: dict[str, str] = {
     # Products & platforms
-    "PocketMind-HybridAI": "Flagship hybrid AI assistant — offline/local models by default, optional online providers, for Android (desktop siblings in the PocketMind family).",
-    "PocketMind": "Core PocketMind product line — private on-device AI workspace spanning the PocketMind apps.",
+    "PocketMind-HybridAI": "Source for PocketMind AI: Offline AI Labs (Android) — on-device models, private chat, optional online providers when you opt in.",
+    "PocketMind": "PocketMind AI — desktop AI workspace (Windows / Microsoft Store) for local + optional online models.",
     "PocketMind-AI-Motivation": "Windows desktop coach that turns motivation goals into daily AI-guided check-ins and prompts.",
     "pocketmind-linkedin-agent": "LinkedIn content agent: knowledge base, campaigns, and dated outbox packages ready to post.",
     "code-review-assistant": "PocketMind desktop app (Electron) that reviews or humanizes up to five files at a time with your own API keys.",

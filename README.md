@@ -27,9 +27,9 @@ Next.js · PyTorch · llama.cpp
 Ollama · YOLO · MediaPipe
 
 $ shipped
-PocketMind Hybrid AI
-PULSE · Harborline
-Cold Outreach
+PocketMind AI
+PocketMind AI: Offline AI Labs
+PULSE · Harborline · Cold Outreach
 
 $ contact
 nouman.shakeel555@gmail.com
@@ -46,8 +46,8 @@ linkedin.com/in/noumanshakeil
 
 [![Email](https://img.shields.io/badge/Email-nouman.shakeel555%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=ea4335)](mailto:nouman.shakeel555@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-noumanshakeil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/noumanshakeil)
-[![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-PocketMind-107C10?style=for-the-badge&logo=microsoftstore&logoColor=white)](https://apps.microsoft.com/detail/9nz7wf9vxf5r)
-[![Google Play](https://img.shields.io/badge/Google%20Play-Offline%20AI%20Labs-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/search?q=Offline%20AI%20Labs&c=apps)
+[![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-PocketMind%20AI-107C10?style=for-the-badge&logo=microsoftstore&logoColor=white)](https://apps.microsoft.com/detail/9nz7wf9vxf5r)
+[![Google Play](https://img.shields.io/badge/Google%20Play-PocketMind%20AI%3A%20Offline%20AI%20Labs-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/search?q=PocketMind%20AI%20Offline%20AI%20Labs&c=apps)
 
 ---
 
@@ -55,7 +55,7 @@ linkedin.com/in/noumanshakeil
 
 I build AI people can actually run — offline-first products, agent systems, retrieval pipelines, and vision stacks. Not notebook demos. Things that ship.
 
-- **PocketMind** — private offline AI by default, online when you choose it (desktop + Android)
+- **PocketMind AI** — desktop AI workspace (Microsoft Store) and **PocketMind AI: Offline AI Labs** on Android
 - **Agents & RAG** — tool-calling agents, hybrid retrieval, citations, memory
 - **Vision & ML** — detection, recognition, surveillance, classical pipelines
 - **Product engineering** — FastAPI / Next.js / Flutter surfaces on top of real models
@@ -70,8 +70,8 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 | App | Where |
 |-----|--------|
-| **PocketMind** (Windows) | [Microsoft Store](https://apps.microsoft.com/detail/9nz7wf9vxf5r) |
-| **Offline AI Labs** (Android) | [Google Play](https://play.google.com/store/search?q=Offline%20AI%20Labs&c=apps) |
+| **PocketMind AI** (Windows) | [Microsoft Store](https://apps.microsoft.com/detail/9nz7wf9vxf5r) |
+| **PocketMind AI: Offline AI Labs** (Android) | [Google Play](https://play.google.com/store/search?q=PocketMind%20AI%20Offline%20AI%20Labs&c=apps) |
 
 ---
 
@@ -134,7 +134,7 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 | Signal | Repo | Why it matters |
 |--------|------|----------------|
-| Product | [`PocketMind-HybridAI`](https://github.com/noumanshakeil/PocketMind-HybridAI) | Offline-first hybrid AI — on-device + optional cloud |
+| Product | [`PocketMind-HybridAI`](https://github.com/noumanshakeil/PocketMind-HybridAI) | PocketMind AI + Offline AI Labs — store apps for desktop & Android |
 | Intelligence | [`PULSE-AI-News-Intelligence-Platform`](https://github.com/noumanshakeil/PULSE-AI-News-Intelligence-Platform) | Summarize, bias-check, and fact-check news in one pipeline |
 | Voice / Biz | [`harborline-receptionist`](https://github.com/noumanshakeil/harborline-receptionist) | AI receptionist with knowledge Q&A + booking |
 | Growth | [`cold-outreach`](https://github.com/noumanshakeil/cold-outreach) | Multi-sender outreach with drafts, lists, campaigns |
@@ -150,8 +150,8 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1. | [`PocketMind-HybridAI`](https://github.com/noumanshakeil/PocketMind-HybridAI) | Flagship hybrid AI assistant — offline/local models by default, optional online providers, for Android (desktop siblings in the PocketMind family). |
-| 2. | [`PocketMind`](https://github.com/noumanshakeil/PocketMind) | Core PocketMind product line — private on-device AI workspace spanning the PocketMind apps. |
+| 1. | [`PocketMind-HybridAI`](https://github.com/noumanshakeil/PocketMind-HybridAI) | Source for PocketMind AI: Offline AI Labs (Android) — on-device models, private chat, optional online providers when you opt in. |
+| 2. | [`PocketMind`](https://github.com/noumanshakeil/PocketMind) | PocketMind AI — desktop AI workspace (Windows / Microsoft Store) for local + optional online models. |
 | 3. | [`PocketMind-AI-Motivation`](https://github.com/noumanshakeil/PocketMind-AI-Motivation) | Windows desktop coach that turns motivation goals into daily AI-guided check-ins and prompts. |
 | 4. | [`pocketmind-linkedin-agent`](https://github.com/noumanshakeil/pocketmind-linkedin-agent) | LinkedIn content agent: knowledge base, campaigns, and dated outbox packages ready to post. |
 | 5. | [`code-review-assistant`](https://github.com/noumanshakeil/code-review-assistant) | PocketMind desktop app (Electron) that reviews or humanizes up to five files at a time with your own API keys. |
@@ -261,8 +261,8 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 - **Email:** [nouman.shakeel555@gmail.com](mailto:nouman.shakeel555@gmail.com)
 - **LinkedIn:** [linkedin.com/in/noumanshakeil](https://www.linkedin.com/in/noumanshakeil)
 - **GitHub:** [github.com/noumanshakeil](https://github.com/noumanshakeil)
-- **PocketMind (Microsoft Store):** [apps.microsoft.com](https://apps.microsoft.com/detail/9nz7wf9vxf5r)
-- **Offline AI Labs (Play Store):** [Google Play](https://play.google.com/store/search?q=Offline%20AI%20Labs&c=apps)
+- **PocketMind AI (Microsoft Store):** [apps.microsoft.com](https://apps.microsoft.com/detail/9nz7wf9vxf5r)
+- **PocketMind AI: Offline AI Labs (Play Store):** [Google Play](https://play.google.com/store/search?q=PocketMind%20AI%20Offline%20AI%20Labs&c=apps)
 
 <div align="center">
 
