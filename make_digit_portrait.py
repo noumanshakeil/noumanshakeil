@@ -1,7 +1,7 @@
-"""High-likeness digit portrait for the GitHub profile hero.
+"""Digit portrait where numbers are clearly visible.
 
-Uses rembg for a clean subject cutout, then a dense photo-colored digit
-mosaic so the face is recognizable and still clearly made of numbers.
+Each mosaic cell is a large bold digit colored from the photo — no solid
+photo fill underneath. Zoom in = numbers. Zoom out = your face.
 """
 from __future__ import annotations
 
@@ -25,8 +25,9 @@ MUTED = (139, 148, 158)
 WHITE = (230, 237, 243)
 GREEN = (63, 185, 80)
 
-COLS = 140
-DIGITS = "9876543210"
+# Fewer, larger cells so each digit is readable on GitHub
+COLS = 56
+DIGITS = "9876543210@"
 
 BLOCKS: list[tuple[str, list[str]]] = [
     ("$ whoami", ["Muhammad Nouman Shakeel"]),
@@ -91,62 +92,78 @@ def luma(r: int, g: int, b: int) -> float:
     return (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255.0
 
 
-def blend(a: tuple[int, int, int], b: tuple[int, int, int], t: float) -> tuple[int, int, int]:
-    return tuple(int(x * (1 - t) + y * t) for x, y in zip(a, b))  # type: ignore[return-value]
+def digit_color(r: int, g: int, b: int) -> tuple[int, int, int]:
+    """Mix photo hue with bright cyan so glyphs stay obviously 'numbers'."""
+    y = max(0.18, luma(r, g, b))
+    # terminal cyan ramp by brightness
+    cyan = (
+        int(40 + 160 * y),
+        int(90 + 150 * y),
+        int(140 + 115 * y),
+    )
+    # keep a bit of skin/hair hue so the face still looks like you
+    return (
+        min(255, int(r * 0.45 + cyan[0] * 0.55)),
+        min(255, int(g * 0.40 + cyan[1] * 0.60)),
+        min(255, int(b * 0.35 + cyan[2] * 0.65)),
+    )
 
 
 def prepare_cutout() -> Image.Image:
-    src = Image.open(SRC).convert("RGBA")
-    w, h = src.size
-    src = src.crop((int(w * 0.10), 0, int(w * 0.90), int(h * 0.80)))
+    if OUT_CUTOUT.exists():
+        cut = Image.open(OUT_CUTOUT).convert("RGBA")
+    else:
+        src = Image.open(SRC).convert("RGBA")
+        w, h = src.size
+        src = src.crop((int(w * 0.10), 0, int(w * 0.90), int(h * 0.80)))
+        cut = remove(src)
+        cut.save(OUT_CUTOUT)
 
-    cut = remove(src)
-    cut.save(OUT_CUTOUT)
-
-    # composite onto dark bg
     base = Image.new("RGBA", cut.size, (*BG, 255))
     base.alpha_composite(cut)
     rgb = base.convert("RGB")
-    rgb = ImageEnhance.Contrast(rgb).enhance(1.15)
-    rgb = ImageEnhance.Color(rgb).enhance(1.05)
-    rgb = rgb.filter(ImageFilter.UnsharpMask(radius=1.0, percent=120, threshold=2))
+    rgb = ImageEnhance.Contrast(rgb).enhance(1.25)
+    rgb = ImageEnhance.Color(rgb).enhance(1.1)
+    rgb = rgb.filter(ImageFilter.UnsharpMask(radius=1.2, percent=140, threshold=2))
     return rgb
 
 
 def render_digit_portrait() -> Image.Image:
     work = prepare_cutout()
 
-    cell = 7
-    rows = max(28, int(COLS * (work.height / work.width)))
+    # Large glyphs — clearly readable as numbers
+    cell_w, cell_h = 14, 18
+    rows = max(16, int(COLS * (work.height / work.width) * (cell_w / cell_h)))
     small = work.resize((COLS, rows), Image.Resampling.BOX)
     px = small.load()
 
-    font = load_font(cell, bold=True)
-    pad = 8
-    canvas = Image.new("RGB", (COLS * cell + pad * 2, rows * cell + pad * 2), BG)
+    font = load_font(cell_h - 2, bold=True)
+    pad = 10
+    canvas = Image.new("RGB", (COLS * cell_w + pad * 2, rows * cell_h + pad * 2), BG)
     draw = ImageDraw.Draw(canvas)
 
     for y in range(rows):
         for x in range(COLS):
             r, g, b = px[x, y]
-            # skip pure background cells from rembg composite
-            if abs(r - BG[0]) < 10 and abs(g - BG[1]) < 10 and abs(b - BG[2]) < 10:
+            # skip background
+            if abs(r - BG[0]) < 12 and abs(g - BG[1]) < 12 and abs(b - BG[2]) < 12:
                 continue
-            if luma(r, g, b) < 0.045:
+            if luma(r, g, b) < 0.05:
                 continue
 
-            x0 = pad + x * cell
-            y0 = pad + y * cell
-
-            # cell fill = photo color (likeness)
-            draw.rectangle((x0, y0, x0 + cell - 1, y0 + cell - 1), fill=(r, g, b))
-
-            # digit overlay — visible but not washing the face
             yv = luma(r, g, b)
+            # darker photo → denser-looking digit glyph
             idx = min(len(DIGITS) - 1, int((1.0 - yv) * (len(DIGITS) - 1)))
-            digit_target = (10, 14, 20) if yv > 0.40 else (220, 235, 255)
-            digit_col = blend((r, g, b), digit_target, 0.42)
-            draw.text((x0 + 1, y0 - 1), DIGITS[idx], fill=digit_col, font=font)
+            ch = DIGITS[idx]
+            fill = digit_color(r, g, b)
+
+            # THE digit IS the pixel — no photo rectangle under it
+            draw.text(
+                (pad + x * cell_w, pad + y * cell_h - 1),
+                ch,
+                fill=fill,
+                font=font,
+            )
 
     return canvas
 
