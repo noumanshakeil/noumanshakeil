@@ -71,6 +71,18 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 ---
 
+## Random Dev Quote
+
+<div align="center">
+
+<img src="./assets/dev-quote.svg" alt="Random developer quote" width="100%" />
+
+</div>
+
+<p align="center"><sub>Rotates automatically via GitHub Actions (about every 3 hours; hard-refresh if you still see a cached quote).</sub></p>
+
+---
+
 ## Architecture I keep shipping
 
 ```text
