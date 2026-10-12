@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#0f1b2d"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39d353"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <!-- grid -->
+  <g stroke="#1f6feb22" stroke-width="1">
+    <path d="M0 80 H1200 M0 160 H1200 M0 240 H1200"/>
+    <path d="M150 0 V320 M300 0 V320 M450 0 V320 M600 0 V320 M750 0 V320 M900 0 V320 M1050 0 V320"/>
+  </g>
+  <!-- signal waves -->
+  <path d="M60 220 C140 120, 220 280, 300 180 S460 80, 540 160 S700 260, 780 140 S940 60, 1020 150 S1140 240, 1180 180"
+        fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)" opacity="0.9"/>
+  <path d="M60 240 C160 200, 240 300, 340 220 S520 100, 620 180 S780 280, 880 160 S1040 80, 1180 200"
+        fill="none" stroke="#58a6ff55" stroke-width="2"/>
+  <!-- nodes -->
+  <g fill="#58a6ff" filter="url(#glow)">
+    <circle cx="300" cy="180" r="6"/><circle cx="540" cy="160" r="6"/>
+    <circle cx="780" cy="140" r="6"/><circle cx="1020" cy="150" r="6"/>
+  </g>
+  <text x="60" y="70" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#e6edf3">NOUMAN SHAKEEL</text>
+  <text x="60" y="110" font-family="Consolas, monospace" font-size="18" fill="#58a6ff">LOCAL AI  ·  AGENTS  ·  RAG  ·  COMPUTER VISION</text>
+  <rect x="60" y="130" width="220" height="4" rx="2" fill="url(#neon)"/>
+  <text x="60" y="290" font-family="Consolas, monospace" font-size="14" fill="#8b949e">github.com/noumanshakeil  —  systems over demos</text>
+</svg>
