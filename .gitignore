@@ -3,4 +3,10 @@
 _catalog.md
 repos_raw.tsv
 assets/portrait-digits-preview.png
+assets/portrait-digits.svg
 private_repos.json
+fetch_private.py
+inspect_empty.py
+preview_digits.py
+
+assets/portrait-cutout.png

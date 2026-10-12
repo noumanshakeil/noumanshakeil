@@ -219,47 +219,14 @@ if remaining:
 
 catalog = "\n\n".join(sections)
 
-header = r'''<table>
-<tr>
-<td width="52%" valign="top">
+header = r'''<div align="center">
 
-<img src="./assets/portrait-digits.svg" alt="Nouman Shakeel — digit portrait" width="100%" />
+<picture>
+  <source media="(max-width: 768px)" srcset="./assets/hero-mobile.png" />
+  <img src="./assets/hero.png" alt="Muhammad Nouman Shakeel — digit portrait and profile" width="100%" />
+</picture>
 
-</td>
-<td width="48%" valign="top">
-
-<pre>
-$ whoami
-Muhammad Nouman Shakeel
-
-$ roles
-Founder · PocketMind
-Co-founder · CodexBridge
-AI Engineer · Zindex
-BS AI · NUST Islamabad
-
-$ focus
-Local / offline AI · agents
-RAG · vision · hybrid apps
-
-$ stack
-Python · TypeScript · FastAPI
-Next.js · PyTorch · llama.cpp
-Ollama · YOLO · MediaPipe
-
-$ shipped
-PocketMind AI
-PocketMind AI: Offline AI Labs
-PULSE · Harborline · Cold Outreach
-
-$ contact
-nouman.shakeel555@gmail.com
-linkedin.com/in/noumanshakeil
-</pre>
-
-</td>
-</tr>
-</table>
+</div>
 
 # Muhammad Nouman Shakeel
 
