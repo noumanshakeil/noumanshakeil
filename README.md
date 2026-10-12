@@ -59,13 +59,13 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=noumanshakeil&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=39d353&text_color=c9d1d9" height="165" alt="GitHub stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=noumanshakeil&theme=radical&hide_border=true&background=0d1117&ring=58a6ff&fire=39d353&currStreakLabel=c9d1d9" height="165" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=noumanshakeil&theme=radical&hide_border=true&background=0d1117&ring=58a6ff&fire=39d353&currStreakLabel=c9d1d9" height="165" alt="GitHub streak" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noumanshakeil&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" alt="Top languages" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=noumanshakeil&bg_color=0d1117&color=58a6ff&line=39d353&point=58a6ff&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
+<img src="https://ghchart.rshah.org/39d353/noumanshakeil" width="100%" alt="GitHub contribution chart" />
 
 </div>
 
@@ -235,7 +235,9 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=noumanshakeil&style=for-the-badge&color=58a6ff" alt="Profile views" />
+<img src="https://hits.sh/github.com/noumanshakeil/noumanshakeil.svg?style=for-the-badge&label=Profile%20views&color=58a6ff" alt="Profile views" />
+<br/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=noumanshakeil.noumanshakeil&left_color=gray&right_color=blue" alt="Visitors" />
 
 <br/><br/>
 
