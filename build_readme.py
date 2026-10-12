@@ -284,12 +284,6 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noumanshakeil&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" alt="Top languages" />
 
-<br/>
-
-<!-- Native GitHub graph on your profile shows private squares; third-party ghchart is public-only -->
-<img src="https://ghchart.rshah.org/39d353/noumanshakeil" width="100%" alt="Public contribution chart" />
-<p align="center"><sub>Streak card is generated from your account token so private streak-keeper commits count. Public stats/language cards still reflect public repos only.</sub></p>
-
 </div>
 
 ---

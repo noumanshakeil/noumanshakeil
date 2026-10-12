@@ -3,55 +3,94 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
 import urllib.request
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "streak-card.svg"
+# Profile owner is in Islamabad — match GitHub local-day boundaries.
+TZ = ZoneInfo(os.environ.get("STREAK_TZ", "Asia/Karachi"))
 
-QUERY = """
+YEARS_QUERY = """
 query {
   viewer {
-    login
     contributionsCollection {
-      contributionCalendar {
-        totalContributions
-        weeks {
-          contributionDays {
-            date
-            contributionCount
-          }
-        }
-      }
+      contributionYears
     }
   }
 }
 """
 
+def year_query(year: int) -> str:
+    return f"""
+query {{
+  viewer {{
+    contributionsCollection(from: "{year}-01-01T00:00:00Z", to: "{year}-12-31T23:59:59Z") {{
+      contributionCalendar {{
+        totalContributions
+        weeks {{
+          contributionDays {{
+            date
+            contributionCount
+          }}
+        }}
+      }}
+    }}
+  }}
+}}
+"""
 
-def graphql(token: str) -> dict:
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=json.dumps({"query": QUERY}).encode(),
-        headers={
-            "Authorization": f"bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "noumanshakeil-streak-card",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        payload = json.loads(resp.read().decode())
-    if "errors" in payload:
-        raise RuntimeError(payload["errors"])
-    return payload["data"]
+
+def graphql(token: str | None, query: str) -> dict:
+    """Use PAT via HTTPS, or fall back to authenticated `gh api graphql`."""
+    if not token:
+        body = json.loads(
+            subprocess.check_output(["gh", "api", "graphql", "-f", f"query={query}"], text=True)
+        )
+    else:
+        req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=json.dumps({"query": query}).encode(),
+            headers={
+                "Authorization": f"bearer {token}",
+                "Content-Type": "application/json",
+                "User-Agent": "noumanshakeil-streak-card",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = json.loads(resp.read().decode())
+    if "errors" in body:
+        raise RuntimeError(body["errors"])
+    return body["data"]
 
 
-def compute_streaks(days: list[tuple[date, int]]) -> tuple[int, int, date | None, date | None, date | None, date | None]:
+def fetch_all_days(token: str | None) -> tuple[int, list[tuple[date, int]]]:
+    """All-time total + per-day counts across every contribution year."""
+    years = graphql(token, YEARS_QUERY)["viewer"]["contributionsCollection"]["contributionYears"]
+    by_day: dict[date, int] = {}
+    total = 0
+    for year in sorted(years):
+        cal = graphql(token, year_query(year))["viewer"]["contributionsCollection"][
+            "contributionCalendar"
+        ]
+        total += int(cal["totalContributions"])
+        for week in cal["weeks"]:
+            for day in week["contributionDays"]:
+                d = date.fromisoformat(day["date"])
+                if d.year == year:
+                    by_day[d] = int(day["contributionCount"])
+    days = sorted(by_day.items())
+    return total, days
+
+
+def compute_streaks(
+    days: list[tuple[date, int]], today: date
+) -> tuple[int, int, date | None, date | None, date | None, date | None]:
     """Return current, longest, and date ranges."""
-    # days sorted ascending
-    days = sorted(days, key=lambda x: x[0])
     longest = 0
     longest_start = longest_end = None
     run = 0
@@ -69,11 +108,9 @@ def compute_streaks(days: list[tuple[date, int]]) -> tuple[int, int, date | None
             run = 0
             run_start = None
 
-    # current streak: count back from today (UTC) while > 0
-    # allow yesterday start if today is still 0 (timezone edge)
     by_day = {d: c for d, c in days}
-    today = datetime.now(timezone.utc).date()
     cursor = today
+    # If today is still empty, streak may be intact through yesterday (TZ edge).
     if by_day.get(cursor, 0) == 0:
         cursor = today - timedelta(days=1)
 
@@ -120,24 +157,19 @@ def render_svg(total: int, current: int, longest: int, cur_range: str, long_rang
 
 
 def main() -> None:
-    token = os.environ.get("STATS_PAT") or os.environ.get("GITHUB_TOKEN")
-    if not token:
-        raise SystemExit("Set STATS_PAT (preferred) or GITHUB_TOKEN")
+    token = os.environ.get("STATS_PAT") or os.environ.get("GITHUB_TOKEN") or None
 
-    data = graphql(token)
-    cal = data["viewer"]["contributionsCollection"]["contributionCalendar"]
-    total = cal["totalContributions"]
-    days: list[tuple[date, int]] = []
-    for week in cal["weeks"]:
-        for day in week["contributionDays"]:
-            days.append((date.fromisoformat(day["date"]), int(day["contributionCount"])))
-
-    current, longest, cs, ce, ls, le = compute_streaks(days)
-    first = min((d for d, c in days if c > 0), default=date.today()).strftime("%b %d, %Y")
+    total, days = fetch_all_days(token)
+    today = datetime.now(TZ).date()
+    current, longest, cs, ce, ls, le = compute_streaks(days, today)
+    first = min((d for d, c in days if c > 0), default=today).strftime("%b %d, %Y")
     svg = render_svg(total, current, longest, fmt_range(cs, ce), fmt_range(ls, le), first)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(svg, encoding="utf-8", newline="\n")
-    print(f"total={total} current={current} longest={longest} -> {OUT}")
+    print(
+        f"total={total} current={current} longest={longest} "
+        f"first={first} today={today} tz={TZ.key} -> {OUT}"
+    )
 
 
 if __name__ == "__main__":
