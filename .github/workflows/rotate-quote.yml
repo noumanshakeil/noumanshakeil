@@ -29,5 +29,6 @@ jobs:
             echo "Quote unchanged"
           else
             git commit -m "chore: rotate random dev quote"
+            git pull --rebase origin main
             git push
           fi
