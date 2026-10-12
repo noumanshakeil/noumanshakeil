@@ -129,37 +129,46 @@ def rank_for(contribs: int) -> tuple[str, float]:
 
 
 def render(name: str, stars: int, commits: int, prs: int, issues: int, contrib_to: int, rank: str, pct: float) -> str:
-    # progress ring
     r = 40
-    c = 2 * 3.1415926 * r
-    dash = f"{c * pct:.1f} {c:.1f}"
+    circ = 2 * 3.1415926 * r
+    dash = f"{circ * pct:.1f} {circ:.1f}"
     title = f"{name}'s GitHub Stats" if name else "GitHub Stats"
+    # Fixed columns: icon | label | right-aligned value (matches github-readme-stats layout)
+    rows = [
+        ("*", "Total Stars Earned:", f"{stars:,}"),
+        ("+", "Total Contributions:", f"{commits:,}"),
+        ("P", "Total PRs:", f"{prs:,}"),
+        ("!", "Total Issues:", f"{issues:,}"),
+        ("#", "Contributed to (last year):", f"{contrib_to:,}"),
+    ]
+    row_h = 26
+    start_y = 62
+    icon_x = 28
+    label_x = 48
+    value_x = 310  # right edge of value column; text-anchor=end
+    lines = []
+    for i, (icon, label, value) in enumerate(rows):
+        y = start_y + i * row_h
+        lines.append(
+            f'    <text x="{icon_x}" y="{y}" fill="#39d353" font-size="14" font-weight="700">{icon}</text>'
+        )
+        lines.append(
+            f'    <text x="{label_x}" y="{y}" fill="#c9d1d9" font-size="13">{label}</text>'
+        )
+        lines.append(
+            f'    <text x="{value_x}" y="{y}" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">{value}</text>'
+        )
+    body = "\n".join(lines)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195" role="img">
   <rect width="450" height="195" rx="8" fill="#0d1117" stroke="#e6edf3" stroke-opacity="0.15"/>
   <g font-family="Segoe UI, Ubuntu, sans-serif">
-    <text x="25" y="35" fill="#58a6ff" font-size="16" font-weight="700">{title}</text>
+    <text x="25" y="32" fill="#58a6ff" font-size="16" font-weight="700">{title}</text>
+{body}
 
-    <g transform="translate(25, 58)" font-size="13" fill="#c9d1d9">
-      <text y="0"><tspan fill="#39d353">*</tspan>  Total Stars Earned:</text>
-      <text x="210" y="0" fill="#58a6ff" font-weight="700">{stars:,}</text>
-
-      <text y="28"><tspan fill="#39d353">+</tspan>  Total Contributions:</text>
-      <text x="230" y="28" fill="#58a6ff" font-weight="700">{commits:,}</text>
-
-      <text y="56"><tspan fill="#39d353">P</tspan>  Total PRs:</text>
-      <text x="210" y="56" fill="#58a6ff" font-weight="700">{prs:,}</text>
-
-      <text y="84"><tspan fill="#39d353">!</tspan>  Total Issues:</text>
-      <text x="210" y="84" fill="#58a6ff" font-weight="700">{issues:,}</text>
-
-      <text y="112"><tspan fill="#39d353">#</tspan>  Contributed to (last year):</text>
-      <text x="250" y="112" fill="#58a6ff" font-weight="700">{contrib_to:,}</text>
-    </g>
-
-    <circle cx="375" cy="110" r="40" fill="none" stroke="#21262d" stroke-width="6"/>
-    <circle cx="375" cy="110" r="40" fill="none" stroke="#39d353" stroke-width="6"
-            stroke-dasharray="{dash}" stroke-linecap="round" transform="rotate(-90 375 110)"/>
-    <text x="375" y="116" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="800">{rank}</text>
+    <circle cx="380" cy="112" r="40" fill="none" stroke="#21262d" stroke-width="6"/>
+    <circle cx="380" cy="112" r="40" fill="none" stroke="#39d353" stroke-width="6"
+            stroke-dasharray="{dash}" stroke-linecap="round" transform="rotate(-90 380 112)"/>
+    <text x="380" y="118" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="800">{rank}</text>
   </g>
 </svg>
 '''
