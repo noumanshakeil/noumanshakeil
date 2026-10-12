@@ -1,0 +1,6 @@
+﻿__pycache__/
+*.pyc
+_catalog.md
+repos_raw.tsv
+assets/portrait-digits-preview.png
+private_repos.json
