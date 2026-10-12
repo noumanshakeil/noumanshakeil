@@ -59,13 +59,15 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=noumanshakeil&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=39d353&text_color=c9d1d9" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com/?user=noumanshakeil&theme=radical&hide_border=true&background=0d1117&ring=58a6ff&fire=39d353&currStreakLabel=c9d1d9" height="165" alt="GitHub streak" />
+<img src="./assets/streak-card.svg" height="165" alt="GitHub streak (includes private contributions)" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noumanshakeil&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" alt="Top languages" />
 
 <br/>
 
-<img src="https://ghchart.rshah.org/39d353/noumanshakeil" width="100%" alt="GitHub contribution chart" />
+<!-- Native GitHub graph on your profile shows private squares; third-party ghchart is public-only -->
+<img src="https://ghchart.rshah.org/39d353/noumanshakeil" width="100%" alt="Public contribution chart" />
+<p align="center"><sub>Streak card is generated from your account token so private streak-keeper commits count. Public stats/language cards still reflect public repos only.</sub></p>
 
 </div>
 
