@@ -8,6 +8,7 @@ from pathlib import Path
 from descriptions import DESCRIPTIONS, SKIP, SKIP_PREFIXES
 
 ROOT = Path(__file__).parent
+FACTORY = ROOT.parent
 
 public = json.loads((ROOT / "repos.json").read_text(encoding="utf-8"))
 private = []
@@ -18,6 +19,13 @@ if priv_path.exists():
 by_name: dict[str, dict] = {}
 for r in public + private:
     by_name[r["name"]] = r
+
+# 60 production-shaped full-stack AI apps (manifest lives in ai-repo-factory)
+FULLSTACK_MANIFEST_PATH = FACTORY / "fullstack_manifest.json"
+fullstack_projects: list[dict] = []
+if FULLSTACK_MANIFEST_PATH.exists():
+    fullstack_projects = json.loads(FULLSTACK_MANIFEST_PATH.read_text(encoding="utf-8"))
+fullstack_descriptions = {p["name"]: p["description"] for p in fullstack_projects}
 
 
 def should_skip(name: str) -> bool:
@@ -45,6 +53,8 @@ def clean_gh_desc(d: str) -> str:
 def desc_for(name: str) -> str:
     if name in DESCRIPTIONS:
         d = DESCRIPTIONS[name]
+    elif name in fullstack_descriptions:
+        d = fullstack_descriptions[name]
     else:
         d = clean_gh_desc(by_name.get(name, {}).get("description") or "")
         if not d or d.lower().startswith("hands-on project"):
@@ -197,6 +207,10 @@ for title, subtitle, names in CATEGORIES:
         f"|---|---------|-------------|\n" + "\n".join(rows)
     )
 
+# Reserve fullstack batch names so they don't also appear under "More builds"
+for p in fullstack_projects:
+    used.add(p["name"])
+
 # Remaining public repos that aren't skipped / already used
 remaining = sorted(
     (
@@ -337,9 +351,29 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 ---
 
-## Full lab — projects & repositories
-
 '''
+
+# Dedicated section for the new production-shaped full-stack AI batch
+fullstack_rows = []
+for i, p in enumerate(fullstack_projects, 1):
+    n = p["name"]
+    used.add(n)
+    fullstack_rows.append(f"| {i}. | {link(n)} | {desc_for(n)} |")
+
+fullstack_section = ""
+if fullstack_rows:
+    fullstack_section = (
+        "## Full Stack AI projects\n\n"
+        "*Sixty shippable full-stack AI apps I built end-to-end — FastAPI + UI, Docker, pytest, "
+        "and mock/OpenAI/Ollama LLM modes so each clone runs without paid keys. "
+        "Agents, RAG portals, LLM product UX, vision, voice, MLOps, and growth surfaces.*\n\n"
+        "| # | Project | Description |\n"
+        "|---|---------|-------------|\n"
+        + "\n".join(fullstack_rows)
+        + "\n\n---\n\n"
+    )
+
+lab_header = "## Full lab — projects & repositories\n\n"
 
 footer = r'''
 
@@ -368,7 +402,7 @@ footer = r'''
 </div>
 '''
 
-readme = header + catalog + footer
+readme = header + fullstack_section + lab_header + catalog + footer
 (ROOT / "README.md").write_text(readme, encoding="utf-8")
-print(f"Wrote README.md ({len(readme)} chars, {len(used)} curated repos)")
+print(f"Wrote README.md ({len(readme)} chars, {len(used)} curated repos, {len(fullstack_projects)} fullstack)")
 print("Skipped noise:", ", ".join(sorted(SKIP)[:12]), "…")

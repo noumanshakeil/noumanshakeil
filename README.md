@@ -116,6 +116,75 @@ ETEA '25 CS KPK topper. Building in public from Islamabad.
 
 ---
 
+## Full Stack AI projects
+
+*Sixty shippable full-stack AI apps I built end-to-end — FastAPI + UI, Docker, pytest, and mock/OpenAI/Ollama LLM modes so each clone runs without paid keys. Agents, RAG portals, LLM product UX, vision, voice, MLOps, and growth surfaces.*
+
+| # | Project | Description |
+|---|---------|-------------|
+| 1. | [`ops-tool-calling-agent`](https://github.com/noumanshakeil/ops-tool-calling-agent) | Ops console that plans multi-step tool calls (restart, scale, diagnose) with an audit trail you can inspect. |
+| 2. | [`support-desk-ai-agent`](https://github.com/noumanshakeil/support-desk-ai-agent) | Support inbox agent that triages tickets, suggests macros/SLA, and drafts the next reply in one UI. |
+| 3. | [`research-brief-agent`](https://github.com/noumanshakeil/research-brief-agent) | Research workspace that turns a topic + sources into a cited brief you can review before shipping. |
+| 4. | [`booking-concierge-agent`](https://github.com/noumanshakeil/booking-concierge-agent) | Scheduling concierge for demos/appointments — slot suggestions, confirmations, and an admin board. |
+| 5. | [`crm-enrichment-agent`](https://github.com/noumanshakeil/crm-enrichment-agent) | CRM enrichment desk that proposes firmographics for leads and lets you accept/reject fields. |
+| 6. | [`meeting-action-items-agent`](https://github.com/noumanshakeil/meeting-action-items-agent) | Meeting notes → owners, due dates, and a living action board instead of a forgotten transcript. |
+| 7. | [`incident-triage-agent`](https://github.com/noumanshakeil/incident-triage-agent) | On-call triage board that scores severity and recommends runbook steps from symptoms. |
+| 8. | [`content-calendar-agent`](https://github.com/noumanshakeil/content-calendar-agent) | Content planner that proposes themes/posts and drops them onto a week calendar UI. |
+| 9. | [`code-migration-agent`](https://github.com/noumanshakeil/code-migration-agent) | Migration planner for stack upgrades — phased steps and a workspace for reviewing diffs. |
+| 10. | [`vendor-rfp-agent`](https://github.com/noumanshakeil/vendor-rfp-agent) | RFP desk that maps requirements to draft answers with confidence scores for review. |
+| 11. | [`multitenant-knowledge-base`](https://github.com/noumanshakeil/multitenant-knowledge-base) | Tenant-isolated knowledge base with ingest + grounded search — built like a real SaaS RAG console. |
+| 12. | [`contract-clause-rag`](https://github.com/noumanshakeil/contract-clause-rag) | Contract clause finder with risk tags and citations for legal/ops review loops. |
+| 13. | [`policy-qa-portal`](https://github.com/noumanshakeil/policy-qa-portal) | Internal policy Q&A portal — ask HR/IT questions and get grounded answers with sources. |
+| 14. | [`ticket-memory-rag`](https://github.com/noumanshakeil/ticket-memory-rag) | Helpdesk memory: similar past tickets and resolutions surfaced next to the live case. |
+| 15. | [`product-docs-copilot`](https://github.com/noumanshakeil/product-docs-copilot) | Docs copilot embedded in a product-docs UI with section-level citations. |
+| 16. | [`meeting-notes-rag`](https://github.com/noumanshakeil/meeting-notes-rag) | Searchable meeting-notes RAG with topic filters and an explorer for old standups/syncs. |
+| 17. | [`legal-faq-stack`](https://github.com/noumanshakeil/legal-faq-stack) | Jurisdiction-aware legal FAQ stack with editor tools and clear disclaimer banners. |
+| 18. | [`sales-playbook-rag`](https://github.com/noumanshakeil/sales-playbook-rag) | Rep-facing playbook chat for objections — grounded in your plays, not generic advice. |
+| 19. | [`onboarding-wiki-rag`](https://github.com/noumanshakeil/onboarding-wiki-rag) | New-hire wiki coach with checklist progress and grounded answers from onboarding guides. |
+| 20. | [`multimodal-doc-room`](https://github.com/noumanshakeil/multimodal-doc-room) | Document room for PDF/image context with Q&A and evidence panels side by side. |
+| 21. | [`streaming-chat-console`](https://github.com/noumanshakeil/streaming-chat-console) | Sessioned streaming chat console with system prompts and mock/OpenAI/Ollama switching. |
+| 22. | [`llm-eval-playground`](https://github.com/noumanshakeil/llm-eval-playground) | Eval playground for prompt datasets — run scorers and compare history side by side. |
+| 23. | [`prompt-studio-workspace`](https://github.com/noumanshakeil/prompt-studio-workspace) | Versioned prompt studio with templates, variables, and one-click preview runs. |
+| 24. | [`ab-prompt-lab`](https://github.com/noumanshakeil/ab-prompt-lab) | A/B prompt lab with variant splits, metrics, and a clear winner-selection flow. |
+| 25. | [`semantic-cache-gateway`](https://github.com/noumanshakeil/semantic-cache-gateway) | Semantic cache gateway that collapses near-duplicate prompts and shows hit analytics. |
+| 26. | [`guardrails-gateway`](https://github.com/noumanshakeil/guardrails-gateway) | Policy gateway for PII/toxicity checks before LLM calls — manage rules in the UI. |
+| 27. | [`llm-usage-metering`](https://github.com/noumanshakeil/llm-usage-metering) | Token metering dashboard with per-key budgets, alerts, and spend breakdowns. |
+| 28. | [`team-prompt-library`](https://github.com/noumanshakeil/team-prompt-library) | Shared prompt library for teams — tags, ratings, and reusable cards. |
+| 29. | [`citation-chat-ui`](https://github.com/noumanshakeil/citation-chat-ui) | Grounded chat UI that refuses to answer without citation chips and source previews. |
+| 30. | [`offline-chat-shell`](https://github.com/noumanshakeil/offline-chat-shell) | Offline-first chat shell with local-model hooks and a sync queue when you're back online. |
+| 31. | [`ocr-pipeline-studio`](https://github.com/noumanshakeil/ocr-pipeline-studio) | OCR pipeline studio — preprocess, map fields, and human-review extractions. |
+| 32. | [`receipt-expense-ai`](https://github.com/noumanshakeil/receipt-expense-ai) | Receipt → expense lines with category suggestions and an approval queue. |
+| 33. | [`shelf-vision-inventory`](https://github.com/noumanshakeil/shelf-vision-inventory) | Shelf-photo inventory counter with SKU hints and discrepancy flags for retail ops. |
+| 34. | [`id-document-extractor`](https://github.com/noumanshakeil/id-document-extractor) | ID field extractor with redaction controls — demo-safe verification UI. |
+| 35. | [`video-frame-qa`](https://github.com/noumanshakeil/video-frame-qa) | Ask questions over sampled video frames with timeline evidence, not vibes. |
+| 36. | [`medical-report-assist`](https://github.com/noumanshakeil/medical-report-assist) | Synthetic medical-report assistant (demo data only) with findings summary + disclaimers. |
+| 37. | [`whiteboard-digitizer`](https://github.com/noumanshakeil/whiteboard-digitizer) | Whiteboard photo → editable notes/diagrams for post-meeting cleanup. |
+| 38. | [`brand-logo-detector`](https://github.com/noumanshakeil/brand-logo-detector) | Marketing asset auditor — detect brand logos in creatives via API + gallery UI. |
+| 39. | [`voice-notes-summarizer`](https://github.com/noumanshakeil/voice-notes-summarizer) | Voice notes → transcript + summary with speaker tags and an archive UI. |
+| 40. | [`call-qa-scorer`](https://github.com/noumanshakeil/call-qa-scorer) | Call QA scorer against a rubric with coaching tips for support/sales coaches. |
+| 41. | [`realtime-caption-assist`](https://github.com/noumanshakeil/realtime-caption-assist) | Realtime caption assist with partial transcripts and a domain glossary panel. |
+| 42. | [`ivr-intent-router`](https://github.com/noumanshakeil/ivr-intent-router) | IVR intent router with a flow designer and utterance test console. |
+| 43. | [`podcast-chapterizer`](https://github.com/noumanshakeil/podcast-chapterizer) | Podcast chapterizer — timestamps, titles, and export-ready chapter lists. |
+| 44. | [`live-meeting-notes`](https://github.com/noumanshakeil/live-meeting-notes) | Live notes workspace with rolling summaries and action capture during the call. |
+| 45. | [`feature-store-mini`](https://github.com/noumanshakeil/feature-store-mini) | Mini feature store — entity keys, online/offline views, and a catalog UI. |
+| 46. | [`model-registry-board`](https://github.com/noumanshakeil/model-registry-board) | Model registry board for versions, stages, and promotion approvals. |
+| 47. | [`drift-monitor-dashboard`](https://github.com/noumanshakeil/drift-monitor-dashboard) | Drift monitor with PSI-style alerts so silent data shifts don't ship unnoticed. |
+| 48. | [`dataset-labeling-assist`](https://github.com/noumanshakeil/dataset-labeling-assist) | Labeling assist with model pre-labels and a human correction loop. |
+| 49. | [`tabular-automl-studio`](https://github.com/noumanshakeil/tabular-automl-studio) | Tabular AutoML studio — train baselines, compare metrics, pick a leaderboard winner. |
+| 50. | [`experiment-tracker-lite`](https://github.com/noumanshakeil/experiment-tracker-lite) | Lightweight experiment tracker for params, metrics, and artifact links. |
+| 51. | [`embedding-explorer`](https://github.com/noumanshakeil/embedding-explorer) | Embedding explorer — nearest neighbors, clusters, and query-by-text UI. |
+| 52. | [`rag-eval-dashboard`](https://github.com/noumanshakeil/rag-eval-dashboard) | RAG eval dashboard for recall, faithfulness, and latency on your suites. |
+| 53. | [`lead-scoring-app`](https://github.com/noumanshakeil/lead-scoring-app) | Explainable lead scoring with feature hints so sales knows why a lead is hot. |
+| 54. | [`outreach-reply-classifier`](https://github.com/noumanshakeil/outreach-reply-classifier) | Outreach reply triage — intent/sentiment labels for inbox prioritization. |
+| 55. | [`review-insight-suite`](https://github.com/noumanshakeil/review-insight-suite) | Review insight suite that clusters themes/sentiment into actionable product notes. |
+| 56. | [`churn-risk-console`](https://github.com/noumanshakeil/churn-risk-console) | Churn risk console with cohort scores and playbooks for CS interventions. |
+| 57. | [`pricing-suggestor`](https://github.com/noumanshakeil/pricing-suggestor) | Pricing scenario tool using features/competitors to suggest package prices. |
+| 58. | [`faq-auto-updater`](https://github.com/noumanshakeil/faq-auto-updater) | FAQ drafts from real tickets — review and publish instead of writing from scratch. |
+| 59. | [`competitor-brief-generator`](https://github.com/noumanshakeil/competitor-brief-generator) | Competitor briefs from notes/URLs into a structured report UI. |
+| 60. | [`onboarding-quiz-coach`](https://github.com/noumanshakeil/onboarding-quiz-coach) | Adaptive product quiz coach that levels questions as learners progress. |
+
+---
+
 ## Full lab — projects & repositories
 
 ### Products & platforms

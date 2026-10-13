@@ -1,882 +1,1059 @@
 [
   {
-    "name": "agent-memory-store",
-    "description": "Short-term chat buffer + long-term vector memory for persistent agent conversations.",
-    "html_url": "https://github.com/noumanshakeil/agent-memory-store",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:44:05Z"
-  },
-  {
-    "name": "agentic-web-researcher",
-    "description": "Multi-step research agent that plans queries, fetches pages, and synthesizes a brief with sources.",
-    "html_url": "https://github.com/noumanshakeil/agentic-web-researcher",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:48:15Z"
-  },
-  {
-    "name": "ai-code-debugger",
-    "description": "Agent that explains stack traces, proposes patches, and runs a sandboxed Python snippet check.",
-    "html_url": "https://github.com/noumanshakeil/ai-code-debugger",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:44:34Z"
-  },
-  {
-    "name": "AI-hand-gesture-recognition",
-    "description": "Real\u00e2\u20ac\u2018time sign language recognition system using CNN, MediaPipe, and OpenCV that converts hand gestures into text and speech with interactive sentence construction.",
-    "html_url": "https://github.com/noumanshakeil/AI-hand-gesture-recognition",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-20T05:58:34Z"
-  },
-  {
-    "name": "ai-interview-coach",
-    "description": "Interview coach agent that asks follow-ups, scores answers, and gives improvement feedback.",
-    "html_url": "https://github.com/noumanshakeil/ai-interview-coach",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:44:25Z"
-  },
-  {
-    "name": "AI-Powered-Smart-Surveillance-System",
-    "description": "AI-Powered Surveillance System: Real-time intruder detection with motion sensing, night vision, automated email alerts, and evidence logging.",
-    "html_url": "https://github.com/noumanshakeil/AI-Powered-Smart-Surveillance-System",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-04-04T05:29:43Z"
-  },
-  {
-    "name": "AI-Resume-Matcher",
-    "description": "AI Resume Matcher \u00e2\u20ac\u201c A full-stack NLP application that parses resumes, extracts skills, and ranks candidates against job descriptions using semantic similarity and Sentence-BERT.",
-    "html_url": "https://github.com/noumanshakeil/AI-Resume-Matcher",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-23T13:42:55Z"
-  },
-  {
-    "name": "anomaly-detection-timeseries",
-    "description": "Unsupervised anomaly detection on synthetic telemetry with isolation forest + plots.",
-    "html_url": "https://github.com/noumanshakeil/anomaly-detection-timeseries",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:10:10Z"
-  },
-  {
-    "name": "audio-event-classifier",
-    "description": "Environmental sound classification MVP using spectrogram features and a small neural net.",
-    "html_url": "https://github.com/noumanshakeil/audio-event-classifier",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:23:38Z"
-  },
-  {
-    "name": "augmented-reality-project",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/augmented-reality-project",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-28T07:59:03Z"
-  },
-  {
-    "name": "cartoonify-image",
-    "description": "A Python-based computer vision project that transforms real-world images into cartoon-style artwork using adaptive thresholding and bilateral filtering. This project demonstrates classical image processing techniques without deep learning.",
-    "html_url": "https://github.com/noumanshakeil/cartoonify-image",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-21T09:33:09Z"
-  },
-  {
-    "name": "chess-project",
-    "description": "Web-based Chess Game built with Flask featuring Player vs Player and Player vs AI modes, legal move validation, and an interactive UI.",
-    "html_url": "https://github.com/noumanshakeil/chess-project",
-    "fork": false,
-    "archived": false,
-    "language": "JavaScript",
-    "topics": [],
-    "pushed_at": "2026-02-21T04:59:04Z"
-  },
-  {
-    "name": "code-review-assistant",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/code-review-assistant",
-    "fork": false,
-    "archived": false,
-    "language": "TypeScript",
-    "topics": [],
-    "pushed_at": "2026-09-24T13:36:19Z"
-  },
-  {
-    "name": "CodeAlpha_credit-scoring-model",
-    "description": "Machine learning credit scoring model that predicts borrower creditworthiness using financial history, engineered ratios, and multiple classification algorithms, supporting evaluation of multiple individuals with detailed reports.",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_credit-scoring-model",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-16T18:12:50Z"
-  },
-  {
-    "name": "CodeAlpha_emotion-recognition-from-speech",
-    "description": "An emotion recognition system that detects human emotions from speech audio using machine learning and speech signal processing techniques, extracts features such as MFCC, Chroma, and Mel Spectrogram using Librosa and trains a neural network model for classification, trained on the RAVDESS and supports real-time prediction on custom audio samples.",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_emotion-recognition-from-speech",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-17T12:46:31Z"
-  },
-  {
-    "name": "CodeAlpha_faq-chatbot",
-    "description": "AI-powered FAQ chatbot using NLP (TF-IDF + Cosine Similarity) to intelligently answer product-related queries with a Flask-based web interface.",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_faq-chatbot",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-18T16:05:36Z"
-  },
-  {
-    "name": "CodeAlpha_Handwritten_character_recognition",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_Handwritten_character_recognition",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-05-05T09:46:20Z"
-  },
-  {
-    "name": "CodeAlpha_language-translator",
-    "description": "A full-stack Language Translation Web App built using Flask and JavaScript that translates text between multiple languages (English, Urdu, Spanish, French) in real-time using Google Translate API, with a clean UI and copy functionality.",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_language-translator",
-    "fork": false,
-    "archived": false,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2026-03-17T16:30:03Z"
-  },
-  {
-    "name": "CodeAlpha_Music-generation-AI",
-    "description": "AI-powered music generation system using LSTM neural networks and MIDI data. Trained on large-scale classical datasets to compose original melodies with deep learning.",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_Music-generation-AI",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-18T15:46:22Z"
-  },
-  {
-    "name": "CodeAlpha_object-detection-system",
-    "description": "Real-time Object Detection and Tracking system using YOLOv8, DeepSORT, and OpenCV with persistent ID tracking and live video processing.",
-    "html_url": "https://github.com/noumanshakeil/CodeAlpha_object-detection-system",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-18T17:00:45Z"
-  },
-  {
-    "name": "cold-outreach",
-    "description": "A cold outreach platform that allows multiple emails to be configured with your account and you can send a tailored email to a list of people in a csv via a number of emails.",
-    "html_url": "https://github.com/noumanshakeil/cold-outreach",
-    "fork": false,
-    "archived": false,
-    "language": "TypeScript",
-    "topics": [],
-    "pushed_at": "2026-10-10T18:10:28Z"
-  },
-  {
-    "name": "DBS-Project",
-    "description": "Full-stack YouTube clone built with Flask + MySQL 8.0 \u00e2\u20ac\u201d featuring 14 normalized tables, 6 views, 11 triggers, 5 functions, 12 stored procedures, real video upload/streaming, HTML5 player, likes, comments, subscriptions, watch history, and notifications. Built as a Database Systems semester project.",
-    "html_url": "https://github.com/noumanshakeil/DBS-Project",
-    "fork": false,
-    "archived": false,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2026-05-03T14:54:20Z"
-  },
-  {
-    "name": "deepfake-detector",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/deepfake-detector",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-03-20T05:59:28Z"
-  },
-  {
-    "name": "diffusion-image-cli",
-    "description": "CLI for text-to-image via a Diffusion-compatible HTTP API with prompt presets.",
-    "html_url": "https://github.com/noumanshakeil/diffusion-image-cli",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:24:48Z"
-  },
-  {
-    "name": "document-chunking-lab",
-    "description": "Compare fixed, recursive, and semantic chunking strategies and measure retrieval quality.",
-    "html_url": "https://github.com/noumanshakeil/document-chunking-lab",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:47:55Z"
-  },
-  {
-    "name": "DSA-Lab1",
-    "description": "The lab we are not supposed to use AI for.",
-    "html_url": "https://github.com/noumanshakeil/DSA-Lab1",
-    "fork": false,
-    "archived": false,
-    "language": "C++",
-    "topics": [],
-    "pushed_at": "2026-09-09T15:47:02Z"
-  },
-  {
-    "name": "DSA-Lab2",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/DSA-Lab2",
-    "fork": false,
-    "archived": false,
-    "language": "C++",
-    "topics": [],
-    "pushed_at": "2026-09-16T07:38:20Z"
-  },
-  {
-    "name": "DSA-Lab3",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/DSA-Lab3",
-    "fork": false,
-    "archived": false,
-    "language": "C++",
-    "topics": [],
-    "pushed_at": "2026-09-23T07:18:55Z"
-  },
-  {
-    "name": "DSA-practice-Beginner-to-advanced",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/DSA-practice-Beginner-to-advanced",
-    "fork": false,
-    "archived": false,
-    "language": "C++",
-    "topics": [],
-    "pushed_at": "2026-09-15T12:54:44Z"
-  },
-  {
-    "name": "DSA_LAB04",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/DSA_LAB04",
-    "fork": false,
-    "archived": false,
-    "language": "C++",
-    "topics": [],
-    "pushed_at": "2026-09-30T06:44:35Z"
-  },
-  {
-    "name": "edge-tflite-classifier",
-    "description": "Train a tiny image classifier and export to TensorFlow Lite for edge/mobile inference.",
-    "html_url": "https://github.com/noumanshakeil/edge-tflite-classifier",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:24:38Z"
-  },
-  {
-    "name": "Face-detection-system",
-    "description": "An end-to-end face recognition system using deep learning.   This project detects faces, extracts embeddings, registers known identities, and recognizes faces in images or live webcam feed.",
-    "html_url": "https://github.com/noumanshakeil/Face-detection-system",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-12T12:13:53Z"
-  },
-  {
-    "name": "fastapi-llm-guardrails",
-    "description": "FastAPI middleware for PII redaction, toxicity filters, and max-token budget guardrails.",
-    "html_url": "https://github.com/noumanshakeil/fastapi-llm-guardrails",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:09:19Z"
-  },
-  {
-    "name": "FinSight-AI",
-    "description": "Capstone Project",
-    "html_url": "https://github.com/noumanshakeil/FinSight-AI",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2025-11-15T07:24:21Z"
-  },
-  {
-    "name": "function-calling-router",
-    "description": "LLM function-calling router that dispatches to typed Python tools with JSON schema validation.",
-    "html_url": "https://github.com/noumanshakeil/function-calling-router",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:44:16Z"
-  },
-  {
-    "name": "git-lab-demo",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/git-lab-demo",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2025-11-07T14:16:30Z"
-  },
-  {
-    "name": "handwritten-digit-recognizer",
-    "description": "CNN-based handwritten digit recognizer with Tkinter GUI and MNIST dataset. Draw digits and get live predictions!",
-    "html_url": "https://github.com/noumanshakeil/handwritten-digit-recognizer",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-07T06:07:48Z"
-  },
-  {
-    "name": "harborline-receptionist",
-    "description": "AI voice receptionist for local businesses \u00e2\u20ac\u201d knowledge Q&A, booking, and owner CRM with a local/mock voice fallback.",
-    "html_url": "https://github.com/noumanshakeil/harborline-receptionist",
-    "fork": false,
-    "archived": false,
-    "language": "TypeScript",
-    "topics": [],
-    "pushed_at": "2026-09-18T09:07:56Z"
-  },
-  {
-    "name": "house-price-predictor",
-    "description": "End to end machine learning project with Streamlit deployment",
-    "html_url": "https://github.com/noumanshakeil/house-price-predictor",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-07T05:06:53Z"
-  },
-  {
-    "name": "hybrid-bm25-vector-rag",
-    "description": "Hybrid retrieval combining BM25 keyword search with dense vectors and Reciprocal Rank Fusion.",
-    "html_url": "https://github.com/noumanshakeil/hybrid-bm25-vector-rag",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:47:35Z"
-  },
-  {
-    "name": "Image-Recognition-Model",
-    "description": "A deep learning\u00e2\u20ac\u201cbased image recognition system featuring modular training, evaluation, and custom inference pipelines, designed with reproducibility and clean project structure in mind.",
-    "html_url": "https://github.com/noumanshakeil/Image-Recognition-Model",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-09T17:47:29Z"
-  },
-  {
-    "name": "Intelligent-Phone-Recommendation-Chatbot",
-    "description": "A production-ready AI chatbot backend that delivers personalized phone recommendations. Built using FastAPI for high-performance API responses and Groq AI for intelligent, human-like chat completions. ",
-    "html_url": "https://github.com/noumanshakeil/Intelligent-Phone-Recommendation-Chatbot",
-    "fork": false,
-    "archived": false,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2026-04-04T04:27:14Z"
-  },
-  {
-    "name": "iris-flower-classification",
-    "description": "End-to-end Iris flower classification pipeline \u00e2\u20ac\u201d EDA, preprocessing, 5 ML models (LR, KNN, DT, RF, SVM), 10-fold cross-validation, and visual evaluation. Best accuracy: 96.67% with SVM.",
-    "html_url": "https://github.com/noumanshakeil/iris-flower-classification",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-04-12T09:59:24Z"
-  },
-  {
-    "name": "knowledge-graph-rag",
-    "description": "Extract entities/relations into a lightweight graph and combine graph hops with vector RAG.",
-    "html_url": "https://github.com/noumanshakeil/knowledge-graph-rag",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:48:06Z"
-  },
-  {
-    "name": "llm-eval-harness",
-    "description": "Minimal LLM evaluation harness: datasets, exact-match/F1 metrics, and HTML report output.",
-    "html_url": "https://github.com/noumanshakeil/llm-eval-harness",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:09:30Z"
-  },
-  {
-    "name": "local-embedding-server",
-    "description": "FastAPI embedding microservice wrapping sentence-transformers for local RAG stacks.",
-    "html_url": "https://github.com/noumanshakeil/local-embedding-server",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:44:45Z"
-  },
-  {
-    "name": "local-rag-ollama",
-    "description": "Local RAG pipeline using Ollama embeddings/chat + ChromaDB for private document Q&A without cloud APIs.",
-    "html_url": "https://github.com/noumanshakeil/local-rag-ollama",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:47:06Z"
-  },
-  {
-    "name": "lora-finetune-demo",
-    "description": "Minimal LoRA fine-tuning demo script on a tiny text dataset (CPU/GPU friendly settings).",
-    "html_url": "https://github.com/noumanshakeil/lora-finetune-demo",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:09:49Z"
-  },
-  {
-    "name": "medical-image-segmentation",
-    "description": "Deep learning\u00e2\u20ac\u201cbased medical image segmentation system for analyzing chest X-rays. Includes training pipeline, model evaluation, and inference on custom unseen images using TensorFlow and OpenCV.",
-    "html_url": "https://github.com/noumanshakeil/medical-image-segmentation",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-21T11:43:17Z"
-  },
-  {
-    "name": "mlops-model-registry",
-    "description": "Filesystem-backed model registry: register, version, promote, and load model artifacts.",
-    "html_url": "https://github.com/noumanshakeil/mlops-model-registry",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:10:00Z"
-  },
-  {
-    "name": "multi-agent-debate",
-    "description": "Two opposing agents debate a topic while a judge agent scores arguments and produces a verdict.",
-    "html_url": "https://github.com/noumanshakeil/multi-agent-debate",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:48:24Z"
-  },
-  {
-    "name": "multimodal-clip-search",
-    "description": "CLIP-based image/text search over a local folder \u00e2\u20ac\u201d find images by natural language query.",
-    "html_url": "https://github.com/noumanshakeil/multimodal-clip-search",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:23:48Z"
-  },
-  {
-    "name": "MY-LLM-APP-POCKETMIND",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/MY-LLM-APP-POCKETMIND",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-05-13T16:05:55Z"
-  },
-  {
-    "name": "MyPersonalPortfolio",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/MyPersonalPortfolio",
-    "fork": false,
-    "archived": false,
-    "language": "CSS",
-    "topics": [],
-    "pushed_at": "2025-12-01T18:04:42Z"
-  },
-  {
-    "name": "ner-spacy-api",
-    "description": "Named Entity Recognition FastAPI service using spaCy with a custom entity highlight demo.",
-    "html_url": "https://github.com/noumanshakeil/ner-spacy-api",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:24:57Z"
-  },
-  {
-    "name": "Nexus-DocPilot",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/Nexus-DocPilot",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-06-24T11:37:04Z"
-  },
-  {
-    "name": "noumanshakeel555-lang",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/noumanshakeel555-lang",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-07-16T18:58:05Z"
-  },
-  {
-    "name": "noumanshakeel555-lang.github.io",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/noumanshakeel555-lang.github.io",
-    "fork": false,
-    "archived": false,
-    "language": "CSS",
-    "topics": [],
-    "pushed_at": "2026-05-16T11:40:00Z"
-  },
-  {
-    "name": "noumanshakeil.github.io",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/noumanshakeil.github.io",
-    "fork": false,
-    "archived": false,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2026-09-20T06:31:01Z"
-  },
-  {
-    "name": "ocr-llm-extractor",
-    "description": "OCR documents then use an LLM to extract structured JSON fields (invoice-style MVP).",
-    "html_url": "https://github.com/noumanshakeil/ocr-llm-extractor",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:24:15Z"
-  },
-  {
-    "name": "OOP-semester-project-LLM",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/OOP-semester-project-LLM",
-    "fork": false,
-    "archived": false,
-    "language": "Java",
-    "topics": [],
-    "pushed_at": "2026-07-30T07:54:22Z"
-  },
-  {
-    "name": "pdf-qa-rag",
-    "description": "PDF ingestion, chunking, embedding, and grounded Q&A with citation snippets \u00e2\u20ac\u201d classic RAG learning project.",
-    "html_url": "https://github.com/noumanshakeil/pdf-qa-rag",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:47:16Z"
-  },
-  {
-    "name": "pitchdeck",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/pitchdeck",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-07-22T11:51:48Z"
-  },
-  {
-    "name": "point-sparse-segmentation",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/point-sparse-segmentation",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-28T07:57:26Z"
-  },
-  {
-    "name": "portfolio-assets",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/portfolio-assets",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-04-23T08:14:19Z"
-  },
-  {
-    "name": "pose-estimation-demo",
-    "description": "Real-time human pose estimation with MediaPipe drawing skeleton overlays on webcam/video.",
-    "html_url": "https://github.com/noumanshakeil/pose-estimation-demo",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:24:06Z"
-  },
-  {
-    "name": "price-fighter",
-    "description": "Web application scraping e-commerce sites like Daraz and Amazon for best prices and ratings.  Includes AI-driven recommendations for alternative products.",
-    "html_url": "https://github.com/noumanshakeil/price-fighter",
-    "fork": false,
-    "archived": false,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2025-12-08T05:22:17Z"
-  },
-  {
-    "name": "prompt-injection-lab",
-    "description": "Hands-on lab demonstrating prompt injection attacks and basic defense patterns.",
-    "html_url": "https://github.com/noumanshakeil/prompt-injection-lab",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:09:08Z"
-  },
-  {
-    "name": "PULSE-AI-News-Intelligence-Platform",
-    "description": "AI-powered news intelligence platform that summarizes, detects bias, fact-checks, and personalizes news in real time. Built with Node.js, Groq (LLaMA 3.3), and a 7-layer production architecture spanning Kafka, Elasticsearch, Pinecone, and Redis. 8 fully functional modules \u00e2\u20ac\u201d no fluff, just working AI.",
-    "html_url": "https://github.com/noumanshakeil/PULSE-AI-News-Intelligence-Platform",
-    "fork": false,
-    "archived": true,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2026-04-26T11:25:07Z"
-  },
-  {
-    "name": "PULSE-Screenshots",
-    "description": "",
-    "html_url": "https://github.com/noumanshakeil/PULSE-Screenshots",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-04-26T12:01:18Z"
-  },
-  {
-    "name": "rag-with-citations",
-    "description": "Retrieval-augmented generation that returns answer text plus source chunk citations and scores.",
-    "html_url": "https://github.com/noumanshakeil/rag-with-citations",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:47:25Z"
-  },
-  {
-    "name": "recommendation-engine-cf",
-    "description": "Collaborative filtering recommender (user-item matrix + cosine similarity) with demo data.",
-    "html_url": "https://github.com/noumanshakeil/recommendation-engine-cf",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:10:20Z"
-  },
-  {
-    "name": "retrieval-reranker",
-    "description": "Two-stage retrieval: bi-encoder recall then cross-encoder re-ranking for higher precision RAG.",
-    "html_url": "https://github.com/noumanshakeil/retrieval-reranker",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:47:44Z"
-  },
-  {
-    "name": "Samsung-sales-chatbot",
-    "description": "A cozy and interactive Samsung Sales Chatbot built with FastAPI and OpenAI API. This project provides an intelligent assistant that can answer questions, provide recommendations, and simulate conversations about Samsung products. Features a friendly web interface with a comfortable, inviting design and supports easy customization.",
-    "html_url": "https://github.com/noumanshakeil/Samsung-sales-chatbot",
-    "fork": false,
-    "archived": false,
-    "language": "HTML",
-    "topics": [],
-    "pushed_at": "2026-02-14T05:39:17Z"
-  },
-  {
-    "name": "semantic-cache-llm",
-    "description": "Semantic response cache: embed prompts, reuse near-duplicate answers to cut LLM cost/latency.",
-    "html_url": "https://github.com/noumanshakeil/semantic-cache-llm",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:45:05Z"
-  },
-  {
-    "name": "sentiment-stream-dashboard",
-    "description": "Batch/stream sentiment scoring over text files with a simple HTML dashboard of aggregates.",
-    "html_url": "https://github.com/noumanshakeil/sentiment-stream-dashboard",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:08:57Z"
-  },
-  {
-    "name": "spam-email-detector",
-    "description": "A machine learning system to classify emails/SMS as spam or ham using NLP and ensemble methods. Features TF-IDF vectorization, custom feature engineering, and a Flask web API. Trained on 5,574 real messages with 98%+ accuracy.",
-    "html_url": "https://github.com/noumanshakeil/spam-email-detector",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-02-07T07:38:18Z"
-  },
-  {
-    "name": "sql-agent-text2sql",
-    "description": "Natural language to SQL agent over a sample SQLite database with safe read-only execution.",
-    "html_url": "https://github.com/noumanshakeil/sql-agent-text2sql",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:43:53Z"
-  },
-  {
-    "name": "streaming-llm-chat",
-    "description": "Token-streaming chat UI backend (SSE) with pluggable OpenAI-compatible local providers.",
-    "html_url": "https://github.com/noumanshakeil/streaming-llm-chat",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:44:54Z"
-  },
-  {
-    "name": "tabular-automl-baseline",
+    "description": "Product onboarding quiz coach with adaptive questions and progress UI.",
+    "isPrivate": false,
+    "name": "onboarding-quiz-coach",
+    "updatedAt": "2026-10-13T15:08:43Z",
+    "url": "https://github.com/noumanshakeil/onboarding-quiz-coach"
+  },
+  {
+    "description": "Competitor brief generator from notes/URLs with structured report UI.",
+    "isPrivate": false,
+    "name": "competitor-brief-generator",
+    "updatedAt": "2026-10-13T15:08:32Z",
+    "url": "https://github.com/noumanshakeil/competitor-brief-generator"
+  },
+  {
+    "description": "FAQ auto-updater that drafts new answers from tickets with publish UI.",
+    "isPrivate": false,
+    "name": "faq-auto-updater",
+    "updatedAt": "2026-10-13T15:08:21Z",
+    "url": "https://github.com/noumanshakeil/faq-auto-updater"
+  },
+  {
+    "description": "Pricing suggestor using competitors/features with scenario simulation UI.",
+    "isPrivate": false,
+    "name": "pricing-suggestor",
+    "updatedAt": "2026-10-13T15:08:09Z",
+    "url": "https://github.com/noumanshakeil/pricing-suggestor"
+  },
+  {
+    "description": "Churn risk console with cohort scores and playbook recommendations.",
+    "isPrivate": false,
+    "name": "churn-risk-console",
+    "updatedAt": "2026-10-13T15:07:52Z",
+    "url": "https://github.com/noumanshakeil/churn-risk-console"
+  },
+  {
+    "description": "Product review insight suite with themes, sentiment, and action UI.",
+    "isPrivate": false,
+    "name": "review-insight-suite",
+    "updatedAt": "2026-10-13T14:27:19Z",
+    "url": "https://github.com/noumanshakeil/review-insight-suite"
+  },
+  {
+    "description": "Outreach reply classifier for intent/sentiment with inbox triage UI.",
+    "isPrivate": false,
+    "name": "outreach-reply-classifier",
+    "updatedAt": "2026-10-13T14:27:06Z",
+    "url": "https://github.com/noumanshakeil/outreach-reply-classifier"
+  },
+  {
+    "description": "Lead scoring app with explainable features and sales prioritization UI.",
+    "isPrivate": false,
+    "name": "lead-scoring-app",
+    "updatedAt": "2026-10-13T14:26:55Z",
+    "url": "https://github.com/noumanshakeil/lead-scoring-app"
+  },
+  {
+    "description": "RAG evaluation dashboard for recall, faithfulness, and latency metrics.",
+    "isPrivate": false,
+    "name": "rag-eval-dashboard",
+    "updatedAt": "2026-10-13T14:26:43Z",
+    "url": "https://github.com/noumanshakeil/rag-eval-dashboard"
+  },
+  {
+    "description": "Embedding explorer with nearest neighbors, clusters, and query UI.",
+    "isPrivate": false,
+    "name": "embedding-explorer",
+    "updatedAt": "2026-10-13T14:26:32Z",
+    "url": "https://github.com/noumanshakeil/embedding-explorer"
+  },
+  {
+    "description": "Lightweight experiment tracker for params, metrics, and artifact links.",
+    "isPrivate": false,
+    "name": "experiment-tracker-lite",
+    "updatedAt": "2026-10-13T14:26:18Z",
+    "url": "https://github.com/noumanshakeil/experiment-tracker-lite"
+  },
+  {
+    "description": "Tabular AutoML studio for train/compare baselines with leaderboard UI.",
+    "isPrivate": false,
+    "name": "tabular-automl-studio",
+    "updatedAt": "2026-10-13T14:26:08Z",
+    "url": "https://github.com/noumanshakeil/tabular-automl-studio"
+  },
+  {
+    "description": "Dataset labeling assist with model pre-labels and human correction UI.",
+    "isPrivate": false,
+    "name": "dataset-labeling-assist",
+    "updatedAt": "2026-10-13T14:25:55Z",
+    "url": "https://github.com/noumanshakeil/dataset-labeling-assist"
+  },
+  {
+    "description": "Data/prediction drift monitor with alerts and PSI charts in a dashboard.",
+    "isPrivate": false,
+    "name": "drift-monitor-dashboard",
+    "updatedAt": "2026-10-13T14:25:43Z",
+    "url": "https://github.com/noumanshakeil/drift-monitor-dashboard"
+  },
+  {
+    "description": "Model registry board for versions, stages, and approval workflows.",
+    "isPrivate": false,
+    "name": "model-registry-board",
+    "updatedAt": "2026-10-13T14:25:30Z",
+    "url": "https://github.com/noumanshakeil/model-registry-board"
+  },
+  {
+    "description": "Profile README \u0393\u00c7\u00f6 local AI, agents, RAG, computer vision",
+    "isPrivate": false,
+    "name": "noumanshakeil",
+    "updatedAt": "2026-10-13T14:24:59Z",
+    "url": "https://github.com/noumanshakeil/noumanshakeil"
+  },
+  {
+    "description": "Mini feature store with entity keys, online/offline views, and catalog UI.",
+    "isPrivate": false,
+    "name": "feature-store-mini",
+    "updatedAt": "2026-10-13T13:23:50Z",
+    "url": "https://github.com/noumanshakeil/feature-store-mini"
+  },
+  {
+    "description": "Live meeting notes workspace with rolling summaries and action capture.",
+    "isPrivate": false,
+    "name": "live-meeting-notes",
+    "updatedAt": "2026-10-13T13:23:36Z",
+    "url": "https://github.com/noumanshakeil/live-meeting-notes"
+  },
+  {
+    "description": "Podcast chapter generator with timestamps, titles, and export UI.",
+    "isPrivate": false,
+    "name": "podcast-chapterizer",
+    "updatedAt": "2026-10-13T13:23:25Z",
+    "url": "https://github.com/noumanshakeil/podcast-chapterizer"
+  },
+  {
+    "description": "IVR intent classification router with flow designer and test console.",
+    "isPrivate": false,
+    "name": "ivr-intent-router",
+    "updatedAt": "2026-10-13T13:23:16Z",
+    "url": "https://github.com/noumanshakeil/ivr-intent-router"
+  },
+  {
+    "description": "Realtime caption assist demo with partial transcripts and glossary UI.",
+    "isPrivate": false,
+    "name": "realtime-caption-assist",
+    "updatedAt": "2026-10-13T13:23:05Z",
+    "url": "https://github.com/noumanshakeil/realtime-caption-assist"
+  },
+  {
+    "description": "Call transcript QA scorer with rubric scores and coaching tips UI.",
+    "isPrivate": false,
+    "name": "call-qa-scorer",
+    "updatedAt": "2026-10-13T13:22:54Z",
+    "url": "https://github.com/noumanshakeil/call-qa-scorer"
+  },
+  {
+    "description": "Voice note upload to transcript + summary with speaker tags and archive UI.",
+    "isPrivate": false,
+    "name": "voice-notes-summarizer",
+    "updatedAt": "2026-10-13T13:22:44Z",
+    "url": "https://github.com/noumanshakeil/voice-notes-summarizer"
+  },
+  {
+    "description": "Brand logo detection API and gallery UI for marketing asset audits.",
+    "isPrivate": false,
+    "name": "brand-logo-detector",
+    "updatedAt": "2026-10-13T13:22:34Z",
+    "url": "https://github.com/noumanshakeil/brand-logo-detector"
+  },
+  {
+    "description": "Whiteboard photo digitizer that extracts text/diagram notes into editable pages.",
+    "isPrivate": false,
+    "name": "whiteboard-digitizer",
+    "updatedAt": "2026-10-13T13:22:23Z",
+    "url": "https://github.com/noumanshakeil/whiteboard-digitizer"
+  },
+  {
+    "description": "Demo medical report assistant with synthetic data, findings, and disclaimer UI.",
+    "isPrivate": false,
+    "name": "medical-report-assist",
+    "updatedAt": "2026-10-13T13:22:13Z",
+    "url": "https://github.com/noumanshakeil/medical-report-assist"
+  },
+  {
+    "description": "Ask questions over sampled video frames with timeline evidence UI.",
+    "isPrivate": false,
+    "name": "video-frame-qa",
+    "updatedAt": "2026-10-13T12:07:18Z",
+    "url": "https://github.com/noumanshakeil/video-frame-qa"
+  },
+  {
+    "description": "ID document field extractor with redaction controls and verification UI.",
+    "isPrivate": false,
+    "name": "id-document-extractor",
+    "updatedAt": "2026-10-13T12:07:08Z",
+    "url": "https://github.com/noumanshakeil/id-document-extractor"
+  },
+  {
+    "description": "Shelf image inventory counter with SKU hints and stock discrepancy UI.",
+    "isPrivate": false,
+    "name": "shelf-vision-inventory",
+    "updatedAt": "2026-10-13T12:06:59Z",
+    "url": "https://github.com/noumanshakeil/shelf-vision-inventory"
+  },
+  {
+    "description": "Receipt capture to expense lines with category suggestions and approval UI.",
+    "isPrivate": false,
+    "name": "receipt-expense-ai",
+    "updatedAt": "2026-10-13T12:06:47Z",
+    "url": "https://github.com/noumanshakeil/receipt-expense-ai"
+  },
+  {
+    "description": "Document OCR pipeline with preprocess steps, field mapping, and review UI.",
+    "isPrivate": false,
+    "name": "ocr-pipeline-studio",
+    "updatedAt": "2026-10-13T12:06:37Z",
+    "url": "https://github.com/noumanshakeil/ocr-pipeline-studio"
+  },
+  {
+    "description": "Offline-first chat shell with local model hooks and sync queue UI.",
+    "isPrivate": false,
+    "name": "offline-chat-shell",
+    "updatedAt": "2026-10-13T12:06:27Z",
+    "url": "https://github.com/noumanshakeil/offline-chat-shell"
+  },
+  {
+    "description": "Chat UI that forces citation chips and source previews for grounded answers.",
+    "isPrivate": false,
+    "name": "citation-chat-ui",
+    "updatedAt": "2026-10-13T12:06:17Z",
+    "url": "https://github.com/noumanshakeil/citation-chat-ui"
+  },
+  {
+    "description": "Shared team prompt library with tags, ratings, and role-based access.",
+    "isPrivate": false,
+    "name": "team-prompt-library",
+    "updatedAt": "2026-10-13T12:06:05Z",
+    "url": "https://github.com/noumanshakeil/team-prompt-library"
+  },
+  {
+    "description": "Token usage metering dashboard with budgets, alerts, and per-key breakdowns.",
+    "isPrivate": false,
+    "name": "llm-usage-metering",
+    "updatedAt": "2026-10-13T12:05:55Z",
+    "url": "https://github.com/noumanshakeil/llm-usage-metering"
+  },
+  {
+    "description": "LLM guardrails gateway for PII/toxicity filters with policy management UI.",
+    "isPrivate": false,
+    "name": "guardrails-gateway",
+    "updatedAt": "2026-10-13T12:05:45Z",
+    "url": "https://github.com/noumanshakeil/guardrails-gateway"
+  },
+  {
+    "description": "Semantic cache gateway that dedupes similar prompts and exposes hit analytics.",
+    "isPrivate": false,
+    "name": "semantic-cache-gateway",
+    "updatedAt": "2026-10-13T12:01:55Z",
+    "url": "https://github.com/noumanshakeil/semantic-cache-gateway"
+  },
+  {
+    "description": "A/B prompt testing lab with traffic splits, metrics, and winner selection UI.",
+    "isPrivate": false,
+    "name": "ab-prompt-lab",
+    "updatedAt": "2026-10-13T11:57:16Z",
+    "url": "https://github.com/noumanshakeil/ab-prompt-lab"
+  },
+  {
+    "description": "Versioned prompt studio with templates, variables, and preview runs.",
+    "isPrivate": false,
+    "name": "prompt-studio-workspace",
+    "updatedAt": "2026-10-13T11:05:41Z",
+    "url": "https://github.com/noumanshakeil/prompt-studio-workspace"
+  },
+  {
+    "description": "Prompt eval playground with datasets, scorers, and side-by-side run history.",
+    "isPrivate": false,
+    "name": "llm-eval-playground",
+    "updatedAt": "2026-10-13T11:05:00Z",
+    "url": "https://github.com/noumanshakeil/llm-eval-playground"
+  },
+  {
+    "description": "Token-streaming chat console with sessions, system prompts, and provider switching.",
+    "isPrivate": false,
+    "name": "streaming-chat-console",
+    "updatedAt": "2026-10-13T11:04:18Z",
+    "url": "https://github.com/noumanshakeil/streaming-chat-console"
+  },
+  {
+    "description": "Document room for PDF/image context with multimodal Q&A and evidence panels.",
+    "isPrivate": false,
+    "name": "multimodal-doc-room",
+    "updatedAt": "2026-10-13T10:16:32Z",
+    "url": "https://github.com/noumanshakeil/multimodal-doc-room"
+  },
+  {
+    "description": "New-hire onboarding wiki RAG with checklist progress and answer grounding.",
+    "isPrivate": false,
+    "name": "onboarding-wiki-rag",
+    "updatedAt": "2026-10-13T10:15:50Z",
+    "url": "https://github.com/noumanshakeil/onboarding-wiki-rag"
+  },
+  {
+    "description": "Sales playbook retrieval for objection handling with a rep-facing chat UI.",
+    "isPrivate": false,
+    "name": "sales-playbook-rag",
+    "updatedAt": "2026-10-13T10:11:52Z",
+    "url": "https://github.com/noumanshakeil/sales-playbook-rag"
+  },
+  {
+    "description": "Legal FAQ stack with jurisdiction tags, disclaimer banners, and editor tools.",
+    "isPrivate": false,
+    "name": "legal-faq-stack",
+    "updatedAt": "2026-10-13T10:11:41Z",
+    "url": "https://github.com/noumanshakeil/legal-faq-stack"
+  },
+  {
+    "description": "Searchable meeting notes RAG with topic filters and a notes explorer UI.",
+    "isPrivate": false,
+    "name": "meeting-notes-rag",
+    "updatedAt": "2026-10-13T10:11:32Z",
+    "url": "https://github.com/noumanshakeil/meeting-notes-rag"
+  },
+  {
+    "description": "Product documentation copilot with section citations and an embedded docs chat UI.",
+    "isPrivate": false,
+    "name": "product-docs-copilot",
+    "updatedAt": "2026-10-13T10:11:20Z",
+    "url": "https://github.com/noumanshakeil/product-docs-copilot"
+  },
+  {
+    "description": "Historical ticket memory RAG that suggests similar resolutions in a helpdesk UI.",
+    "isPrivate": false,
+    "name": "ticket-memory-rag",
+    "updatedAt": "2026-10-13T10:03:48Z",
+    "url": "https://github.com/noumanshakeil/ticket-memory-rag"
+  },
+  {
+    "description": "Company policy Q&A portal with grounded answers and admin document upload.",
+    "isPrivate": false,
+    "name": "policy-qa-portal",
+    "updatedAt": "2026-10-13T10:03:36Z",
+    "url": "https://github.com/noumanshakeil/policy-qa-portal"
+  },
+  {
+    "description": "Contract clause retrieval with risk tags, citations, and a legal review UI.",
+    "isPrivate": false,
+    "name": "contract-clause-rag",
+    "updatedAt": "2026-10-13T10:03:24Z",
+    "url": "https://github.com/noumanshakeil/contract-clause-rag"
+  },
+  {
+    "description": "Tenant-isolated RAG knowledge base with ingestion API and search console.",
+    "isPrivate": false,
+    "name": "multitenant-knowledge-base",
+    "updatedAt": "2026-10-13T10:03:10Z",
+    "url": "https://github.com/noumanshakeil/multitenant-knowledge-base"
+  },
+  {
+    "description": "RFP response agent that maps requirements to answer drafts with a scoring UI.",
+    "isPrivate": false,
+    "name": "vendor-rfp-agent",
+    "updatedAt": "2026-10-13T09:25:30Z",
+    "url": "https://github.com/noumanshakeil/vendor-rfp-agent"
+  },
+  {
+    "description": "Repo migration assistant that plans refactors and shows diffs in a web workspace.",
+    "isPrivate": false,
+    "name": "code-migration-agent",
+    "updatedAt": "2026-10-13T09:25:06Z",
+    "url": "https://github.com/noumanshakeil/code-migration-agent"
+  },
+  {
+    "description": "Content planning agent that proposes posts, topics, and schedules in a calendar UI.",
+    "isPrivate": false,
+    "name": "content-calendar-agent",
+    "updatedAt": "2026-10-13T09:24:55Z",
+    "url": "https://github.com/noumanshakeil/content-calendar-agent"
+  },
+  {
+    "description": "Severity-scoring incident agent with runbook suggestions and an on-call dashboard.",
+    "isPrivate": false,
+    "name": "incident-triage-agent",
+    "updatedAt": "2026-10-13T09:24:41Z",
+    "url": "https://github.com/noumanshakeil/incident-triage-agent"
+  },
+  {
+    "description": "Turns meeting notes into owners, due dates, and tracked action items with a board UI.",
+    "isPrivate": false,
+    "name": "meeting-action-items-agent",
+    "updatedAt": "2026-10-13T09:24:25Z",
+    "url": "https://github.com/noumanshakeil/meeting-action-items-agent"
+  },
+  {
+    "description": "Lead enrichment agent that merges firmographics into CRM records with a review UI.",
+    "isPrivate": false,
+    "name": "crm-enrichment-agent",
+    "updatedAt": "2026-10-13T09:24:10Z",
+    "url": "https://github.com/noumanshakeil/crm-enrichment-agent"
+  },
+  {
+    "description": "Appointment booking agent with calendar slots, confirmation flows, and admin console.",
+    "isPrivate": false,
+    "name": "booking-concierge-agent",
+    "updatedAt": "2026-10-13T09:23:57Z",
+    "url": "https://github.com/noumanshakeil/booking-concierge-agent"
+  },
+  {
+    "description": "Multi-source research agent that drafts cited briefs with a review workspace UI.",
+    "isPrivate": false,
+    "name": "research-brief-agent",
+    "updatedAt": "2026-10-13T09:23:45Z",
+    "url": "https://github.com/noumanshakeil/research-brief-agent"
+  },
+  {
+    "description": "Ticket triage agent with SLA hints, macro suggestions, and a support inbox UI backed by FastAPI.",
+    "isPrivate": false,
+    "name": "support-desk-ai-agent",
+    "updatedAt": "2026-10-13T09:23:24Z",
+    "url": "https://github.com/noumanshakeil/support-desk-ai-agent"
+  },
+  {
+    "description": "Full-stack ops agent with tool registry, audit trail, and a console UI for running multi-step infrastructure tasks.",
+    "isPrivate": false,
+    "name": "ops-tool-calling-agent",
+    "updatedAt": "2026-10-13T09:22:52Z",
+    "url": "https://github.com/noumanshakeil/ops-tool-calling-agent"
+  },
+  {
     "description": "Tabular AutoML-style baseline: auto preprocess, try several models, pick best by CV score.",
-    "html_url": "https://github.com/noumanshakeil/tabular-automl-baseline",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-10-12T14:45:50Z"
+    "isPrivate": false,
+    "name": "tabular-automl-baseline",
+    "updatedAt": "2026-10-12T14:45:50Z",
+    "url": "https://github.com/noumanshakeil/tabular-automl-baseline"
   },
   {
-    "name": "text-summarization-api",
-    "description": "Abstractive summarization API with extractive baseline fallback and length controls.",
-    "html_url": "https://github.com/noumanshakeil/text-summarization-api",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:08:47Z"
+    "description": "Collaborative filtering recommender (user-item matrix + cosine similarity) with demo data.",
+    "isPrivate": false,
+    "name": "recommendation-engine-cf",
+    "updatedAt": "2026-10-12T14:10:24Z",
+    "url": "https://github.com/noumanshakeil/recommendation-engine-cf"
   },
   {
-    "name": "time-series-forecasting",
-    "description": "A modular Python time series forecasting toolkit implementing Moving Average, Exponential Smoothing, and ARIMA models with clean architecture, example dataset, and ready-to-run forecasting pipeline.",
-    "html_url": "https://github.com/noumanshakeil/time-series-forecasting",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-03-30T08:23:52Z"
+    "description": "Unsupervised anomaly detection on synthetic telemetry with isolation forest + plots.",
+    "isPrivate": false,
+    "name": "anomaly-detection-timeseries",
+    "updatedAt": "2026-10-12T14:10:15Z",
+    "url": "https://github.com/noumanshakeil/anomaly-detection-timeseries"
   },
   {
-    "name": "tool-calling-agent",
-    "description": "ReAct-style tool-calling agent with calculator, file reader, and HTTP GET tools.",
-    "html_url": "https://github.com/noumanshakeil/tool-calling-agent",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T11:48:34Z"
+    "description": "Filesystem-backed model registry: register, version, promote, and load model artifacts.",
+    "isPrivate": false,
+    "name": "mlops-model-registry",
+    "updatedAt": "2026-10-12T14:10:04Z",
+    "url": "https://github.com/noumanshakeil/mlops-model-registry"
   },
   {
-    "name": "vector-db-benchmark",
+    "description": "Minimal LoRA fine-tuning demo script on a tiny text dataset (CPU/GPU friendly settings).",
+    "isPrivate": false,
+    "name": "lora-finetune-demo",
+    "updatedAt": "2026-10-12T14:09:54Z",
+    "url": "https://github.com/noumanshakeil/lora-finetune-demo"
+  },
+  {
     "description": "Benchmark FAISS vs simple NumPy cosine search on synthetic embeddings (latency/recall).",
-    "html_url": "https://github.com/noumanshakeil/vector-db-benchmark",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T14:09:40Z"
+    "isPrivate": false,
+    "name": "vector-db-benchmark",
+    "updatedAt": "2026-10-12T14:09:43Z",
+    "url": "https://github.com/noumanshakeil/vector-db-benchmark"
   },
   {
-    "name": "vision-qa-pipeline",
-    "description": "Visual question answering pipeline: describe image context and answer user questions.",
-    "html_url": "https://github.com/noumanshakeil/vision-qa-pipeline",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T13:23:57Z"
+    "description": "Minimal LLM evaluation harness: datasets, exact-match/F1 metrics, and HTML report output.",
+    "isPrivate": false,
+    "name": "llm-eval-harness",
+    "updatedAt": "2026-10-12T14:09:34Z",
+    "url": "https://github.com/noumanshakeil/llm-eval-harness"
   },
   {
-    "name": "voice-agent-local",
-    "description": "Local voice loop: speech-to-text \u00e2\u2020\u2019 LLM \u00e2\u2020\u2019 text-to-speech with a CLI conversation mode.",
-    "html_url": "https://github.com/noumanshakeil/voice-agent-local",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:45:23Z"
+    "description": "FastAPI middleware for PII redaction, toxicity filters, and max-token budget guardrails.",
+    "isPrivate": false,
+    "name": "fastapi-llm-guardrails",
+    "updatedAt": "2026-10-12T14:09:23Z",
+    "url": "https://github.com/noumanshakeil/fastapi-llm-guardrails"
   },
   {
-    "name": "whisper-meeting-notes",
-    "description": "Transcribe audio with Whisper-compatible API and produce structured meeting notes + action items.",
-    "html_url": "https://github.com/noumanshakeil/whisper-meeting-notes",
-    "fork": false,
-    "archived": false,
-    "language": "Python",
-    "topics": [],
-    "pushed_at": "2026-10-12T12:45:15Z"
+    "description": "Hands-on lab demonstrating prompt injection attacks and basic defense patterns.",
+    "isPrivate": false,
+    "name": "prompt-injection-lab",
+    "updatedAt": "2026-10-12T14:09:12Z",
+    "url": "https://github.com/noumanshakeil/prompt-injection-lab"
   },
   {
-    "name": "yolo-custom-train-template",
+    "description": "Batch/stream sentiment scoring over text files with a simple HTML dashboard of aggregates.",
+    "isPrivate": false,
+    "name": "sentiment-stream-dashboard",
+    "updatedAt": "2026-10-12T14:09:01Z",
+    "url": "https://github.com/noumanshakeil/sentiment-stream-dashboard"
+  },
+  {
+    "description": "Abstractive summarization API with extractive baseline fallback and length controls.",
+    "isPrivate": false,
+    "name": "text-summarization-api",
+    "updatedAt": "2026-10-12T14:08:51Z",
+    "url": "https://github.com/noumanshakeil/text-summarization-api"
+  },
+  {
+    "description": "Named Entity Recognition FastAPI service using spaCy with a custom entity highlight demo.",
+    "isPrivate": false,
+    "name": "ner-spacy-api",
+    "updatedAt": "2026-10-12T13:25:01Z",
+    "url": "https://github.com/noumanshakeil/ner-spacy-api"
+  },
+  {
+    "description": "CLI for text-to-image via a Diffusion-compatible HTTP API with prompt presets.",
+    "isPrivate": false,
+    "name": "diffusion-image-cli",
+    "updatedAt": "2026-10-12T13:24:51Z",
+    "url": "https://github.com/noumanshakeil/diffusion-image-cli"
+  },
+  {
+    "description": "Train a tiny image classifier and export to TensorFlow Lite for edge/mobile inference.",
+    "isPrivate": false,
+    "name": "edge-tflite-classifier",
+    "updatedAt": "2026-10-12T13:24:42Z",
+    "url": "https://github.com/noumanshakeil/edge-tflite-classifier"
+  },
+  {
     "description": "Clean YOLOv8 custom-dataset training template with config, train, and predict scripts.",
-    "html_url": "https://github.com/noumanshakeil/yolo-custom-train-template",
-    "fork": false,
-    "archived": false,
-    "language": null,
-    "topics": [],
-    "pushed_at": "2026-10-12T13:24:20Z"
+    "isPrivate": false,
+    "name": "yolo-custom-train-template",
+    "updatedAt": "2026-10-12T13:24:20Z",
+    "url": "https://github.com/noumanshakeil/yolo-custom-train-template"
+  },
+  {
+    "description": "OCR documents then use an LLM to extract structured JSON fields (invoice-style MVP).",
+    "isPrivate": false,
+    "name": "ocr-llm-extractor",
+    "updatedAt": "2026-10-12T13:24:19Z",
+    "url": "https://github.com/noumanshakeil/ocr-llm-extractor"
+  },
+  {
+    "description": "Real-time human pose estimation with MediaPipe drawing skeleton overlays on webcam/video.",
+    "isPrivate": false,
+    "name": "pose-estimation-demo",
+    "updatedAt": "2026-10-12T13:24:11Z",
+    "url": "https://github.com/noumanshakeil/pose-estimation-demo"
+  },
+  {
+    "description": "Visual question answering pipeline: describe image context and answer user questions.",
+    "isPrivate": false,
+    "name": "vision-qa-pipeline",
+    "updatedAt": "2026-10-12T13:24:01Z",
+    "url": "https://github.com/noumanshakeil/vision-qa-pipeline"
+  },
+  {
+    "description": "CLIP-based image/text search over a local folder \u0393\u00c7\u00f6 find images by natural language query.",
+    "isPrivate": false,
+    "name": "multimodal-clip-search",
+    "updatedAt": "2026-10-12T13:23:52Z",
+    "url": "https://github.com/noumanshakeil/multimodal-clip-search"
+  },
+  {
+    "description": "Environmental sound classification MVP using spectrogram features and a small neural net.",
+    "isPrivate": false,
+    "name": "audio-event-classifier",
+    "updatedAt": "2026-10-12T13:23:43Z",
+    "url": "https://github.com/noumanshakeil/audio-event-classifier"
+  },
+  {
+    "description": "Local voice loop: speech-to-text \u0393\u00e5\u00c6 LLM \u0393\u00e5\u00c6 text-to-speech with a CLI conversation mode.",
+    "isPrivate": false,
+    "name": "voice-agent-local",
+    "updatedAt": "2026-10-12T12:45:27Z",
+    "url": "https://github.com/noumanshakeil/voice-agent-local"
+  },
+  {
+    "description": "Transcribe audio with Whisper-compatible API and produce structured meeting notes + action items.",
+    "isPrivate": false,
+    "name": "whisper-meeting-notes",
+    "updatedAt": "2026-10-12T12:45:19Z",
+    "url": "https://github.com/noumanshakeil/whisper-meeting-notes"
+  },
+  {
+    "description": "Semantic response cache: embed prompts, reuse near-duplicate answers to cut LLM cost/latency.",
+    "isPrivate": false,
+    "name": "semantic-cache-llm",
+    "updatedAt": "2026-10-12T12:45:09Z",
+    "url": "https://github.com/noumanshakeil/semantic-cache-llm"
+  },
+  {
+    "description": "Token-streaming chat UI backend (SSE) with pluggable OpenAI-compatible local providers.",
+    "isPrivate": false,
+    "name": "streaming-llm-chat",
+    "updatedAt": "2026-10-12T12:44:59Z",
+    "url": "https://github.com/noumanshakeil/streaming-llm-chat"
+  },
+  {
+    "description": "FastAPI embedding microservice wrapping sentence-transformers for local RAG stacks.",
+    "isPrivate": false,
+    "name": "local-embedding-server",
+    "updatedAt": "2026-10-12T12:44:49Z",
+    "url": "https://github.com/noumanshakeil/local-embedding-server"
+  },
+  {
+    "description": "Agent that explains stack traces, proposes patches, and runs a sandboxed Python snippet check.",
+    "isPrivate": false,
+    "name": "ai-code-debugger",
+    "updatedAt": "2026-10-12T12:44:38Z",
+    "url": "https://github.com/noumanshakeil/ai-code-debugger"
+  },
+  {
+    "description": "Interview coach agent that asks follow-ups, scores answers, and gives improvement feedback.",
+    "isPrivate": false,
+    "name": "ai-interview-coach",
+    "updatedAt": "2026-10-12T12:44:29Z",
+    "url": "https://github.com/noumanshakeil/ai-interview-coach"
+  },
+  {
+    "description": "LLM function-calling router that dispatches to typed Python tools with JSON schema validation.",
+    "isPrivate": false,
+    "name": "function-calling-router",
+    "updatedAt": "2026-10-12T12:44:20Z",
+    "url": "https://github.com/noumanshakeil/function-calling-router"
+  },
+  {
+    "description": "Short-term chat buffer + long-term vector memory for persistent agent conversations.",
+    "isPrivate": false,
+    "name": "agent-memory-store",
+    "updatedAt": "2026-10-12T12:44:09Z",
+    "url": "https://github.com/noumanshakeil/agent-memory-store"
+  },
+  {
+    "description": "Natural language to SQL agent over a sample SQLite database with safe read-only execution.",
+    "isPrivate": false,
+    "name": "sql-agent-text2sql",
+    "updatedAt": "2026-10-12T12:43:57Z",
+    "url": "https://github.com/noumanshakeil/sql-agent-text2sql"
+  },
+  {
+    "description": "ReAct-style tool-calling agent with calculator, file reader, and HTTP GET tools.",
+    "isPrivate": false,
+    "name": "tool-calling-agent",
+    "updatedAt": "2026-10-12T11:48:38Z",
+    "url": "https://github.com/noumanshakeil/tool-calling-agent"
+  },
+  {
+    "description": "Two opposing agents debate a topic while a judge agent scores arguments and produces a verdict.",
+    "isPrivate": false,
+    "name": "multi-agent-debate",
+    "updatedAt": "2026-10-12T11:48:28Z",
+    "url": "https://github.com/noumanshakeil/multi-agent-debate"
+  },
+  {
+    "description": "Multi-step research agent that plans queries, fetches pages, and synthesizes a brief with sources.",
+    "isPrivate": false,
+    "name": "agentic-web-researcher",
+    "updatedAt": "2026-10-12T11:48:19Z",
+    "url": "https://github.com/noumanshakeil/agentic-web-researcher"
+  },
+  {
+    "description": "Extract entities/relations into a lightweight graph and combine graph hops with vector RAG.",
+    "isPrivate": false,
+    "name": "knowledge-graph-rag",
+    "updatedAt": "2026-10-12T11:48:09Z",
+    "url": "https://github.com/noumanshakeil/knowledge-graph-rag"
+  },
+  {
+    "description": "Compare fixed, recursive, and semantic chunking strategies and measure retrieval quality.",
+    "isPrivate": false,
+    "name": "document-chunking-lab",
+    "updatedAt": "2026-10-12T11:47:59Z",
+    "url": "https://github.com/noumanshakeil/document-chunking-lab"
+  },
+  {
+    "description": "Two-stage retrieval: bi-encoder recall then cross-encoder re-ranking for higher precision RAG.",
+    "isPrivate": false,
+    "name": "retrieval-reranker",
+    "updatedAt": "2026-10-12T11:47:49Z",
+    "url": "https://github.com/noumanshakeil/retrieval-reranker"
+  },
+  {
+    "description": "Hybrid retrieval combining BM25 keyword search with dense vectors and Reciprocal Rank Fusion.",
+    "isPrivate": false,
+    "name": "hybrid-bm25-vector-rag",
+    "updatedAt": "2026-10-12T11:47:40Z",
+    "url": "https://github.com/noumanshakeil/hybrid-bm25-vector-rag"
+  },
+  {
+    "description": "Retrieval-augmented generation that returns answer text plus source chunk citations and scores.",
+    "isPrivate": false,
+    "name": "rag-with-citations",
+    "updatedAt": "2026-10-12T11:47:29Z",
+    "url": "https://github.com/noumanshakeil/rag-with-citations"
+  },
+  {
+    "description": "PDF ingestion, chunking, embedding, and grounded Q&A with citation snippets \u0393\u00c7\u00f6 classic RAG learning project.",
+    "isPrivate": false,
+    "name": "pdf-qa-rag",
+    "updatedAt": "2026-10-12T11:47:21Z",
+    "url": "https://github.com/noumanshakeil/pdf-qa-rag"
+  },
+  {
+    "description": "Local RAG pipeline using Ollama embeddings/chat + ChromaDB for private document Q&A without cloud APIs.",
+    "isPrivate": false,
+    "name": "local-rag-ollama",
+    "updatedAt": "2026-10-12T11:47:10Z",
+    "url": "https://github.com/noumanshakeil/local-rag-ollama"
+  },
+  {
+    "description": "A cold outreach platform that allows multiple emails to be configured with your account and you can send a tailored email to a list of people in a csv via a number of emails.",
+    "isPrivate": false,
+    "name": "cold-outreach",
+    "updatedAt": "2026-10-10T18:10:31Z",
+    "url": "https://github.com/noumanshakeil/cold-outreach"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "DSA_LAB04",
+    "updatedAt": "2026-09-30T06:44:39Z",
+    "url": "https://github.com/noumanshakeil/DSA_LAB04"
+  },
+  {
+    "description": "PocketMind desktop app (Electron) that reviews or humanizes up to five files at a time with your own API keys.",
+    "isPrivate": false,
+    "name": "code-review-assistant",
+    "updatedAt": "2026-10-12T15:24:12Z",
+    "url": "https://github.com/noumanshakeil/code-review-assistant"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "DSA-Lab3",
+    "updatedAt": "2026-09-23T07:18:59Z",
+    "url": "https://github.com/noumanshakeil/DSA-Lab3"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "noumanshakeil.github.io",
+    "updatedAt": "2026-09-19T18:17:24Z",
+    "url": "https://github.com/noumanshakeil/noumanshakeil.github.io"
+  },
+  {
+    "description": "AI voice receptionist for local businesses \u0393\u00c7\u00f6 knowledge Q&A, booking, and owner CRM with a local/mock voice fallback.",
+    "isPrivate": false,
+    "name": "harborline-receptionist",
+    "updatedAt": "2026-09-18T09:07:53Z",
+    "url": "https://github.com/noumanshakeil/harborline-receptionist"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "DSA-Lab2",
+    "updatedAt": "2026-09-16T07:38:24Z",
+    "url": "https://github.com/noumanshakeil/DSA-Lab2"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "DSA-practice-Beginner-to-advanced",
+    "updatedAt": "2026-09-15T12:54:48Z",
+    "url": "https://github.com/noumanshakeil/DSA-practice-Beginner-to-advanced"
+  },
+  {
+    "description": "The lab we are not supposed to use AI for.",
+    "isPrivate": false,
+    "name": "DSA-Lab1",
+    "updatedAt": "2026-09-09T15:53:59Z",
+    "url": "https://github.com/noumanshakeil/DSA-Lab1"
+  },
+  {
+    "description": "QuizSecureX \u0393\u00c7\u00f6 Java Swing secure quiz system with teacher/student roles, SQLite persistence, and multi-layer anti-cheat.",
+    "isPrivate": false,
+    "name": "OOP-semester-project-LLM",
+    "updatedAt": "2026-10-13T12:05:17Z",
+    "url": "https://github.com/noumanshakeil/OOP-semester-project-LLM"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "pitchdeck",
+    "updatedAt": "2026-07-22T11:52:33Z",
+    "url": "https://github.com/noumanshakeil/pitchdeck"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "noumanshakeel555-lang",
+    "updatedAt": "2026-07-16T18:58:16Z",
+    "url": "https://github.com/noumanshakeil/noumanshakeel555-lang"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "Nexus-DocPilot",
+    "updatedAt": "2026-06-24T11:37:04Z",
+    "url": "https://github.com/noumanshakeil/Nexus-DocPilot"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "noumanshakeel555-lang.github.io",
+    "updatedAt": "2026-05-16T11:43:28Z",
+    "url": "https://github.com/noumanshakeil/noumanshakeel555-lang.github.io"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "MY-LLM-APP-POCKETMIND",
+    "updatedAt": "2026-10-13T12:05:15Z",
+    "url": "https://github.com/noumanshakeil/MY-LLM-APP-POCKETMIND"
+  },
+  {
+    "description": "Train/infer handwritten character recognizer with config-driven training scripts.",
+    "isPrivate": false,
+    "name": "CodeAlpha_Handwritten_character_recognition",
+    "updatedAt": "2026-10-12T15:24:16Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_Handwritten_character_recognition"
+  },
+  {
+    "description": "Full-stack YouTube clone built with Flask + MySQL 8.0 \u0393\u00c7\u00f6 featuring 14 normalized tables, 6 views, 11 triggers, 5 functions, 12 stored procedures, real video upload/streaming, HTML5 player, likes, comments, subscriptions, watch history, and notifications. Built as a Database Systems semester project.",
+    "isPrivate": false,
+    "name": "DBS-Project",
+    "updatedAt": "2026-10-13T12:05:13Z",
+    "url": "https://github.com/noumanshakeil/DBS-Project"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "PULSE-Screenshots",
+    "updatedAt": "2026-04-26T12:01:23Z",
+    "url": "https://github.com/noumanshakeil/PULSE-Screenshots"
+  },
+  {
+    "description": "AI-powered news intelligence platform that summarizes, detects bias, fact-checks, and personalizes news in real time. Built with Node.js, Groq (LLaMA 3.3), and a 7-layer production architecture spanning Kafka, Elasticsearch, Pinecone, and Redis. 8 fully functional modules \u0393\u00c7\u00f6 no fluff, just working AI.",
+    "isPrivate": false,
+    "name": "PULSE-AI-News-Intelligence-Platform",
+    "updatedAt": "2026-10-13T12:05:12Z",
+    "url": "https://github.com/noumanshakeil/PULSE-AI-News-Intelligence-Platform"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "portfolio-assets",
+    "updatedAt": "2026-04-23T08:14:24Z",
+    "url": "https://github.com/noumanshakeil/portfolio-assets"
+  },
+  {
+    "description": "End-to-end Iris flower classification pipeline \u0393\u00c7\u00f6 EDA, preprocessing, 5 ML models (LR, KNN, DT, RF, SVM), 10-fold cross-validation, and visual evaluation. Best accuracy: 96.67% with SVM.",
+    "isPrivate": false,
+    "name": "iris-flower-classification",
+    "updatedAt": "2026-04-12T09:59:31Z",
+    "url": "https://github.com/noumanshakeil/iris-flower-classification"
+  },
+  {
+    "description": "AI-Powered Surveillance System: Real-time intruder detection with motion sensing, night vision, automated email alerts, and evidence logging.",
+    "isPrivate": false,
+    "name": "AI-Powered-Smart-Surveillance-System",
+    "updatedAt": "2026-10-13T12:05:10Z",
+    "url": "https://github.com/noumanshakeil/AI-Powered-Smart-Surveillance-System"
+  },
+  {
+    "description": "A production-ready AI chatbot backend that delivers personalized phone recommendations. Built using FastAPI for high-performance API responses and Groq AI for intelligent, human-like chat completions. ",
+    "isPrivate": false,
+    "name": "Intelligent-Phone-Recommendation-Chatbot",
+    "updatedAt": "2026-04-04T04:27:17Z",
+    "url": "https://github.com/noumanshakeil/Intelligent-Phone-Recommendation-Chatbot"
+  },
+  {
+    "description": "A modular Python time series forecasting toolkit implementing Moving Average, Exponential Smoothing, and ARIMA models with clean architecture, example dataset, and ready-to-run forecasting pipeline.",
+    "isPrivate": false,
+    "name": "time-series-forecasting",
+    "updatedAt": "2026-03-30T08:23:55Z",
+    "url": "https://github.com/noumanshakeil/time-series-forecasting"
+  },
+  {
+    "description": "AI Resume Matcher \u0393\u00c7\u00f4 A full-stack NLP application that parses resumes, extracts skills, and ranks candidates against job descriptions using semantic similarity and Sentence-BERT.",
+    "isPrivate": false,
+    "name": "AI-Resume-Matcher",
+    "updatedAt": "2026-03-23T13:42:58Z",
+    "url": "https://github.com/noumanshakeil/AI-Resume-Matcher"
+  },
+  {
+    "description": "Deep learning\u0393\u00c7\u00f4based medical image segmentation system for analyzing chest X-rays. Includes training pipeline, model evaluation, and inference on custom unseen images using TensorFlow and OpenCV.",
+    "isPrivate": false,
+    "name": "medical-image-segmentation",
+    "updatedAt": "2026-03-21T11:43:20Z",
+    "url": "https://github.com/noumanshakeil/medical-image-segmentation"
+  },
+  {
+    "description": "A Python-based computer vision project that transforms real-world images into cartoon-style artwork using adaptive thresholding and bilateral filtering. This project demonstrates classical image processing techniques without deep learning.",
+    "isPrivate": false,
+    "name": "cartoonify-image",
+    "updatedAt": "2026-03-21T09:33:13Z",
+    "url": "https://github.com/noumanshakeil/cartoonify-image"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "deepfake-detector",
+    "updatedAt": "2026-03-20T05:59:28Z",
+    "url": "https://github.com/noumanshakeil/deepfake-detector"
+  },
+  {
+    "description": "Real\u0393\u00c7\u00e6time sign language recognition system using CNN, MediaPipe, and OpenCV that converts hand gestures into text and speech with interactive sentence construction.",
+    "isPrivate": false,
+    "name": "AI-hand-gesture-recognition",
+    "updatedAt": "2026-03-20T05:58:37Z",
+    "url": "https://github.com/noumanshakeil/AI-hand-gesture-recognition"
+  },
+  {
+    "description": "Real-time Object Detection and Tracking system using YOLOv8, DeepSORT, and OpenCV with persistent ID tracking and live video processing.",
+    "isPrivate": false,
+    "name": "CodeAlpha_object-detection-system",
+    "updatedAt": "2026-10-13T12:05:09Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_object-detection-system"
+  },
+  {
+    "description": "AI-powered FAQ chatbot using NLP (TF-IDF + Cosine Similarity) to intelligently answer product-related queries with a Flask-based web interface.",
+    "isPrivate": false,
+    "name": "CodeAlpha_faq-chatbot",
+    "updatedAt": "2026-03-18T17:16:45Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_faq-chatbot"
+  },
+  {
+    "description": "AI-powered music generation system using LSTM neural networks and MIDI data. Trained on large-scale classical datasets to compose original melodies with deep learning.",
+    "isPrivate": false,
+    "name": "CodeAlpha_Music-generation-AI",
+    "updatedAt": "2026-03-18T17:16:14Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_Music-generation-AI"
+  },
+  {
+    "description": "A full-stack Language Translation Web App built using Flask and JavaScript that translates text between multiple languages (English, Urdu, Spanish, French) in real-time using Google Translate API, with a clean UI and copy functionality.",
+    "isPrivate": false,
+    "name": "CodeAlpha_language-translator",
+    "updatedAt": "2026-03-18T17:17:04Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_language-translator"
+  },
+  {
+    "description": "An emotion recognition system that detects human emotions from speech audio using machine learning and speech signal processing techniques, extracts features such as MFCC, Chroma, and Mel Spectrogram using Librosa and trains a neural network model for classification, trained on the RAVDESS and supports real-time prediction on custom audio samples.",
+    "isPrivate": false,
+    "name": "CodeAlpha_emotion-recognition-from-speech",
+    "updatedAt": "2026-03-18T17:43:18Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_emotion-recognition-from-speech"
+  },
+  {
+    "description": "Machine learning credit scoring model that predicts borrower creditworthiness using financial history, engineered ratios, and multiple classification algorithms, supporting evaluation of multiple individuals with detailed reports.",
+    "isPrivate": false,
+    "name": "CodeAlpha_credit-scoring-model",
+    "updatedAt": "2026-03-18T17:42:44Z",
+    "url": "https://github.com/noumanshakeil/CodeAlpha_credit-scoring-model"
+  },
+  {
+    "description": "AR/CV experiment stack \u0393\u00c7\u00f6 capture, preprocess, and segment scenes for overlays.",
+    "isPrivate": false,
+    "name": "augmented-reality-project",
+    "updatedAt": "2026-10-12T15:24:18Z",
+    "url": "https://github.com/noumanshakeil/augmented-reality-project"
+  },
+  {
+    "description": "Point/sparse segmentation training loop with custom loss, loader, and eval scripts.",
+    "isPrivate": false,
+    "name": "point-sparse-segmentation",
+    "updatedAt": "2026-10-12T15:24:19Z",
+    "url": "https://github.com/noumanshakeil/point-sparse-segmentation"
+  },
+  {
+    "description": "Web-based Chess Game built with Flask featuring Player vs Player and Player vs AI modes, legal move validation, and an interactive UI.",
+    "isPrivate": false,
+    "name": "chess-project",
+    "updatedAt": "2026-10-13T12:05:23Z",
+    "url": "https://github.com/noumanshakeil/chess-project"
+  },
+  {
+    "description": "A cozy and interactive Samsung Sales Chatbot built with FastAPI and OpenAI API. This project provides an intelligent assistant that can answer questions, provide recommendations, and simulate conversations about Samsung products. Features a friendly web interface with a comfortable, inviting design and supports easy customization.",
+    "isPrivate": false,
+    "name": "Samsung-sales-chatbot",
+    "updatedAt": "2026-02-14T05:39:20Z",
+    "url": "https://github.com/noumanshakeil/Samsung-sales-chatbot"
+  },
+  {
+    "description": "An end-to-end face recognition system using deep learning.   This project detects faces, extracts embeddings, registers known identities, and recognizes faces in images or live webcam feed.",
+    "isPrivate": false,
+    "name": "Face-detection-system",
+    "updatedAt": "2026-02-12T12:24:19Z",
+    "url": "https://github.com/noumanshakeil/Face-detection-system"
+  },
+  {
+    "description": "A deep learning\u0393\u00c7\u00f4based image recognition system featuring modular training, evaluation, and custom inference pipelines, designed with reproducibility and clean project structure in mind.",
+    "isPrivate": false,
+    "name": "Image-Recognition-Model",
+    "updatedAt": "2026-02-09T17:47:34Z",
+    "url": "https://github.com/noumanshakeil/Image-Recognition-Model"
+  },
+  {
+    "description": "A machine learning system to classify emails/SMS as spam or ham using NLP and ensemble methods. Features TF-IDF vectorization, custom feature engineering, and a Flask web API. Trained on 5,574 real messages with 98%+ accuracy.",
+    "isPrivate": false,
+    "name": "spam-email-detector",
+    "updatedAt": "2026-02-07T07:38:22Z",
+    "url": "https://github.com/noumanshakeil/spam-email-detector"
+  },
+  {
+    "description": "CNN-based handwritten digit recognizer with Tkinter GUI and MNIST dataset. Draw digits and get live predictions!",
+    "isPrivate": false,
+    "name": "handwritten-digit-recognizer",
+    "updatedAt": "2026-02-07T06:07:51Z",
+    "url": "https://github.com/noumanshakeil/handwritten-digit-recognizer"
+  },
+  {
+    "description": "End to end machine learning project with Streamlit deployment",
+    "isPrivate": false,
+    "name": "house-price-predictor",
+    "updatedAt": "2026-10-13T12:05:25Z",
+    "url": "https://github.com/noumanshakeil/house-price-predictor"
+  },
+  {
+    "description": "Web application scraping e-commerce sites like Daraz and Amazon for best prices and ratings.  Includes AI-driven recommendations for alternative products.",
+    "isPrivate": false,
+    "name": "price-fighter",
+    "updatedAt": "2026-10-13T12:05:22Z",
+    "url": "https://github.com/noumanshakeil/price-fighter"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "MyPersonalPortfolio",
+    "updatedAt": "2026-10-13T12:05:20Z",
+    "url": "https://github.com/noumanshakeil/MyPersonalPortfolio"
+  },
+  {
+    "description": "forked a repo",
+    "isPrivate": false,
+    "name": "My-Website-",
+    "updatedAt": "2025-11-28T15:17:04Z",
+    "url": "https://github.com/noumanshakeil/My-Website-"
+  },
+  {
+    "description": "Financial analysis RAG assistant \u0393\u00c7\u00f6 FAISS retrieval over reports plus Bedrock/SageMaker-ready inference paths.",
+    "isPrivate": false,
+    "name": "FinSight-AI",
+    "updatedAt": "2026-10-13T12:05:19Z",
+    "url": "https://github.com/noumanshakeil/FinSight-AI"
+  },
+  {
+    "description": "",
+    "isPrivate": false,
+    "name": "git-lab-demo",
+    "updatedAt": "2025-11-07T14:16:35Z",
+    "url": "https://github.com/noumanshakeil/git-lab-demo"
+  },
+  {
+    "description": "Admin Portal with Express Backend [WIP] | http://admin-portal.npmstack.com",
+    "isPrivate": false,
+    "name": "admin-portal",
+    "updatedAt": "2026-07-15T10:07:41Z",
+    "url": "https://github.com/noumanshakeil/admin-portal"
   }
 ]
