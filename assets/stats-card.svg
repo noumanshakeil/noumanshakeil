@@ -7,7 +7,7 @@
     <text x="310" y="62" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">2</text>
     <text x="28" y="88" fill="#39d353" font-size="14" font-weight="700">+</text>
     <text x="48" y="88" fill="#c9d1d9" font-size="13">Total Contributions:</text>
-    <text x="310" y="88" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">4,699</text>
+    <text x="310" y="88" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">9,579</text>
     <text x="28" y="114" fill="#39d353" font-size="14" font-weight="700">P</text>
     <text x="48" y="114" fill="#c9d1d9" font-size="13">Total PRs:</text>
     <text x="310" y="114" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">127</text>
@@ -16,11 +16,11 @@
     <text x="310" y="140" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">8</text>
     <text x="28" y="166" fill="#39d353" font-size="14" font-weight="700">#</text>
     <text x="48" y="166" fill="#c9d1d9" font-size="13">Contributed to (last year):</text>
-    <text x="310" y="166" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">158</text>
+    <text x="310" y="166" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="end">161</text>
 
     <circle cx="380" cy="112" r="40" fill="none" stroke="#21262d" stroke-width="6"/>
     <circle cx="380" cy="112" r="40" fill="none" stroke="#39d353" stroke-width="6"
-            stroke-dasharray="221.2 251.3" stroke-linecap="round" transform="rotate(-90 380 112)"/>
-    <text x="380" y="118" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="800">A+</text>
+            stroke-dasharray="238.8 251.3" stroke-linecap="round" transform="rotate(-90 380 112)"/>
+    <text x="380" y="118" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="800">S</text>
   </g>
 </svg>
